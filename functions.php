@@ -293,8 +293,10 @@ add_action('vc_before_init', 'k2_theme_frame_vc_elements');
 /**
  * Additional widgets for the theme
  */
-//k2_require_folder('widgets',get_template_directory());
+ if (class_exists('k2ShortCode')) {
 
+        k2_require_folder('widgets',get_template_directory());
+    }
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
