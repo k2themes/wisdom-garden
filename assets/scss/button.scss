@@ -1,0 +1,146 @@
+/* CMS Button */
+.btn,
+button,
+.button,
+input[type="submit"] {
+  background-color: $primary_color;
+  font-size: 16px;
+  border: 2px solid $primary_color;
+  color: $secondary_color;
+  text-transform: capitalize;
+  padding: 0 45px;
+  line-height: 46px;
+  @include transition(all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0s);
+  @include border-radius(0px);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  @extend .ft-heading-m;
+  position: relative;
+}
+.btn:hover,
+button:hover,
+.button:hover,
+input[type="submit"]:hover,
+.btn:focus,
+button:focus,
+.button:focus,
+input[type="submit"]:focus,
+.btn.focus,
+.btn:active {
+  outline: medium none;
+  text-decoration: none;
+  background-color: $secondary_color;
+  border-color: $secondary_color;
+  color: #fff;
+  @include box-shadow(none);
+}
+.btn {
+  /* Button Style */
+  &.btn-outline {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid $secondary_color;
+    color: $secondary_color;
+    &:hover, &:focus, &:active {
+      border-color: $primary_color;
+      color: #fff;
+      background-color: $primary_color;
+    }
+  }
+  &.btn-primary-outline {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid $primary_color;
+    color: $primary_color;
+    &:not(:hover) {
+      @include box-shadow(none);
+    }
+    &:hover, &:focus, &:active {
+      border-color: $primary_color !important;
+      color: $secondary_color !important;
+      background-color: $primary_color !important;
+    }
+  }
+  &.btn-secondary {
+    background-color: $secondary_color;
+    border-color: $secondary_color;
+    color: #fff;
+    &:hover, &:focus, &:active {
+      border-color: $primary_color;
+      background-color: $primary_color;
+    }
+  }
+  &.btn-primary-white {
+    background-color: #fff;
+    border-color: #fff;
+    color: $primary_color;
+    &:hover {
+      background-color: lighten($primary_color, 0.08);
+      border-color: lighten($primary_color, 0.08);
+      color: #fff;
+    }
+  }
+  /* Button Size */
+  &.size-lg {
+    line-height: 58px;
+    font-size: 20px;
+  }
+}
+.btn-align-center {
+  text-align: center;
+}
+.btn-align-right {
+  text-align: right;
+}
+.btn-group .btn + .btn {
+  margin-left: 30px;
+}
+.btn-contact {
+  display: inline-block;
+  margin-right: 30px;
+  + .fanbox-contact {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.btn-block {
+  display: block;
+}
+.btn-text {
+  color: $primary_color;
+  border-bottom: 1px solid rgba($primary_color, 0.2);
+  display: inline-block;
+  &:hover, &:focus, &:active {
+    color: lighten($primary_color, 0.1);
+  }
+}
+.btn-purchase {
+  .btn {
+    @include box-shadow(none);
+    background-color: #feb103;
+    border-color: #feb103;
+    @include border-radius(5px);
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 41px;
+    &:hover, &:focus, &:active {
+      background-color: transparent;
+      color: #feb103;
+    }
+  }
+  @media #{$max-sm} {
+    .btn {
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+  }
+}
+@media #{$max-sm} {
+  .btn-contact {
+    display: block;
+    margin: 0 0 20px;
+  }
+}

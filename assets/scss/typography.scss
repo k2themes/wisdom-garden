@@ -1,0 +1,205 @@
+html {
+    box-sizing: border-box;
+}
+a {
+  @include transition(all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0s);
+  color: #ffc916;
+}
+a, a:hover, a:focus, a:before, a:after {
+  outline: none;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: $link_color_active;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+p {
+  margin-bottom: 15px;
+}
+body {
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 1.73;
+    color: $secondary_color;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    font-weight: normal;
+}
+.site {
+  position: relative;
+  overflow: hidden;
+}
+
+// Headings
+//--------------------------------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: $color_dark;
+    clear: both;
+    line-height: 1.1;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+h1, .h1 {
+    font-size: 52px;
+}
+
+h2, .h2 {
+    font-size: 42px;
+}
+
+h3, .h3 {
+    font-size: 36px;
+}
+
+h4, .h4 {
+    font-size: 32px;
+}
+
+h5, .h5 {
+    font-size: 24px;
+}
+
+h6, .h6 {
+    font-size: 20px;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+// Unit Test
+//--------------------------------------------------
+
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+    @include border-radius(0);
+    th {
+      color: $color_dark;
+    }
+}
+caption, td {
+    font-weight: normal;
+    text-align: left;
+}
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+  padding: 13px 8px;
+}
+th {
+  font-weight: 700;
+}
+td {
+    border-top: 1px solid #ededed;
+    padding: 6px 10px 6px 0;
+}
+/*--- Definition Lists ---*/
+dl {
+    margin: 0 0 0 25px;
+}
+dl dt {
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+dl dd {
+    line-height: normal;
+    margin-bottom: 20px;
+    a {
+      color: #000;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+}
+code, kbd {
+    background-color: transparent;
+    border-radius: 4px;
+    color: inherit;
+    font-size: 100%;
+    padding: 2px 4px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+ins {
+    color: #fff;
+    border: none;
+    padding: 2px;
+    text-decoration: none;
+    background-color: $primary_color;
+}
+pre {
+    background: #f5f5f5;
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+ol {
+  list-style: outside none decimal;
+}
+ul {
+  padding: 0;
+  margin: 0 0 15px;
+  li {
+    list-style-position: inside;
+  }
+}
+blockquote {
+  background-color: #dde1e4;
+  border-left: 5px solid $secondary_color;
+  font-size: 24px;
+  line-height: normal;
+  padding: 20px 26px;
+  color: $secondary_color;
+  font-family: 'Calibre-Medium';
+  cite {
+    font-style: normal;
+    display: block;
+    color: rgba(#000000, 0.33);
+    font-size: 18px;
+    margin-top: 12px;
+  }
+}
+
+dl + h2 + ul {
+  padding-left: 35px;
+  ul {
+    padding-left: 35px;
+    li {
+      list-style: outside;
+    }
+  }
+}
+.post-password-form input[type="submit"] {
+  line-height: 52px !important;
+}

@@ -1,0 +1,4925 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: k2_prefix 1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2018-06-06 09:59+0700\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"PO-Revision-Date: 2016-12-23 16:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: 404.php:21
+msgid "Return To Homepage"
+msgstr ""
+
+#: comments.php:32
+msgid "Comment (1)"
+msgstr ""
+
+#: comments.php:34 inc/theme-options.php:788 inc/theme-options.php:880
+msgid "Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:63
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:64
+msgid "Leave A Comment To "
+msgstr ""
+
+#: comments.php:65
+msgid "Cancel Comment"
+msgstr ""
+
+#: comments.php:66
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:73 inc/page-options.php:1492
+#: userpress/default/form-register.php:20
+msgid "Name"
+msgstr ""
+
+#: comments.php:78 inc/theme-options.php:254 inc/theme-options.php:1396
+#: inc/theme-options.php:1418 userpress/default/form-register.php:23
+#: vc_elements/cms_googlemap.php:268 vc_elements/cms_team_grid.php:57
+#: vc_templates/cms_team_grid.php:138
+msgid "Email"
+msgstr ""
+
+#: comments.php:82
+msgid "Website"
+msgstr ""
+
+#: comments.php:85
+msgid "Comment"
+msgstr ""
+
+#: functions.php:35
+msgid "Primary"
+msgstr ""
+
+#: functions.php:119
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:121 functions.php:131 functions.php:142 functions.php:155
+#: functions.php:170
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:129
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:140
+msgid "Service Sidebar"
+msgstr ""
+
+#: functions.php:153
+msgid "Career Sidebar"
+msgstr ""
+
+#: functions.php:168
+#, php-format
+msgid "Footer Top %s"
+msgstr ""
+
+#: functions.php:438
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:443
+msgctxt "Cabin font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:448
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:453
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:50
+msgid "Home"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:51
+msgid "Not Found"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:52
+msgid "Search Results"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:323
+msgid "Tag:"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:339 inc/template-functions.php:153
+msgid "Author:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:334 inc/require.plugins.php:93
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:335 inc/require.plugins.php:94
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:337 inc/require.plugins.php:95
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:340 inc/require.plugins.php:96
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:343 inc/require.plugins.php:97
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:349 inc/require.plugins.php:98
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:355 inc/require.plugins.php:103
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:367 inc/require.plugins.php:100
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:373 inc/require.plugins.php:101
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:378 inc/require.plugins.php:105
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:388 inc/require.plugins.php:106
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:392 inc/require.plugins.php:107
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:393
+#: inc/libs/class-tgm-plugin-activation.php:920
+#: inc/libs/class-tgm-plugin-activation.php:2625
+#: inc/libs/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:394
+#: inc/libs/class-tgm-plugin-activation.php:3250 inc/require.plugins.php:108
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:395
+#: inc/libs/class-tgm-plugin-activation.php:3043
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update "
+"or activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1026
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1026
+#: inc/libs/class-tgm-plugin-activation.php:1029
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1029
+msgid ""
+"The remote plugin package consists of more than one file, but the files "
+"are not packaged in a folder."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1213
+#: inc/libs/class-tgm-plugin-activation.php:3039
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2365
+msgid "Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2368
+msgid "Recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2384
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2387
+msgid "External Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2390
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2407
+msgid "Not Installed"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2411
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2413
+msgid "Active"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2419
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2422
+msgid "Requires Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2425
+msgid "Update recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2434
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2480
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2488
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2492
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2574
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2582
+msgid "Installed version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2590
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2602
+msgid "Available version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2625
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2638
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2639
+msgid "Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2640
+#: vc_elements/cms_contact_info.php:89 vc_elements/cms_contact_info.php:123
+#: vc_elements/cms_contact_info.php:164 vc_elements/cms_overlay.php:11
+msgid "Type"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2644
+msgid "Version"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2645
+msgid "Status"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2694
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2705
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2775
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2808
+msgid "Install"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2814
+msgid "Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2817
+msgid "Activate"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2999
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3025
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3249
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3598
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3601
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3606
+msgid ""
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3609
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/page-options.php:18
+msgid "Post Settings"
+msgstr ""
+
+#: inc/page-options.php:29
+msgid "Page Settings"
+msgstr ""
+
+#: inc/page-options.php:40 inc/page-options.php:2266
+msgid "Audio"
+msgstr ""
+
+#: inc/page-options.php:51 inc/page-options.php:2280
+#: vc_elements/cms_button.php:19 vc_elements/cms_client_carousel.php:74
+#: vc_elements/cms_fancybox.php:149 vc_elements/cms_team_grid.php:155
+#: vc_elements/cms_team_member.php:154
+msgid "Link"
+msgstr ""
+
+#: inc/page-options.php:61 inc/page-options.php:2293
+msgid "Quote"
+msgstr ""
+
+#: inc/page-options.php:71 inc/page-options.php:2221
+msgid "Video"
+msgstr ""
+
+#: inc/page-options.php:82 inc/page-options.php:654 inc/page-options.php:2247
+#: template-parts/content-portfolio/content-corporate.php:63
+msgid "Gallery"
+msgstr ""
+
+#: inc/page-options.php:94
+msgid "Services Settings"
+msgstr ""
+
+#: inc/page-options.php:105 inc/page-options.php:699
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/page-options.php:116
+msgid "Careers Settings"
+msgstr ""
+
+#: inc/page-options.php:127
+msgid "Career Apply Options"
+msgstr ""
+
+#: inc/page-options.php:143 inc/page-options.php:574
+#: inc/page-options.php:1088
+msgid "Excerpt"
+msgstr ""
+
+#: inc/page-options.php:149 inc/page-options.php:645
+#: inc/theme-options.php:991
+msgid "Feature Image"
+msgstr ""
+
+#: inc/page-options.php:151 inc/page-options.php:647
+msgid "Show"
+msgstr ""
+
+#: inc/page-options.php:152 inc/page-options.php:648
+msgid "Hide"
+msgstr ""
+
+#: inc/page-options.php:166 inc/page-options.php:598
+#: inc/page-options.php:1106 inc/page-options.php:1718
+#: inc/page-options.php:2153 inc/theme-options.php:699
+msgid "Content Padding"
+msgstr ""
+
+#: inc/page-options.php:167 inc/page-options.php:599
+#: inc/page-options.php:1107 inc/page-options.php:1719
+#: inc/page-options.php:2154
+msgid "Default: Theme Option."
+msgstr ""
+
+#: inc/page-options.php:177 vc_elements/cms_fancybox.php:248
+#: vc_elements/cms_fancybox.php:270 vc_elements/cms_fancybox.php:285
+#: vc_elements/cms_fancybox.php:301 vc_elements/cms_fancybox.php:318
+#: vc_elements/cms_fancybox.php:329 vc_elements/cms_fancybox.php:342
+#: vc_elements/cms_fancybox.php:354 vc_elements/cms_fancybox.php:371
+#: vc_elements/cms_icon.php:18 vc_elements/cms_icon.php:29
+#: vc_elements/cms_icon.php:45 vc_elements/cms_icon.php:62
+#: vc_elements/cms_icon.php:69 vc_elements/cms_icon.php:83
+#: vc_elements/cms_icon.php:90 vc_elements/cms_icon.php:99
+#: vc_elements/cms_portfolio_details.php:86 vc_elements/cms_team_grid.php:142
+#: vc_elements/cms_team_member.php:141
+msgid "Icon"
+msgstr ""
+
+#: inc/page-options.php:183
+msgid "Icon Hover"
+msgstr ""
+
+#: inc/page-options.php:189 inc/page-options.php:609
+#: inc/page-options.php:1094 inc/page-options.php:2183
+msgid "Character"
+msgstr ""
+
+#: inc/page-options.php:190 inc/page-options.php:610
+#: inc/page-options.php:1095 inc/page-options.php:1730
+#: inc/page-options.php:2184
+msgid "Enter characters, it is blurry below the page."
+msgstr ""
+
+#: inc/page-options.php:198 inc/page-options.php:662
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: inc/page-options.php:205 inc/page-options.php:680 inc/page-options.php:694
+msgid "List Info"
+msgstr ""
+
+#: inc/page-options.php:209
+msgid "Content Settingss"
+msgstr ""
+
+#: inc/page-options.php:214 inc/page-options.php:704
+msgid "Page Title Settings"
+msgstr ""
+
+#: inc/page-options.php:220 inc/page-options.php:710
+#: inc/page-options.php:1137 inc/page-options.php:1531
+#: inc/page-options.php:1793
+msgid "Custom Page Title"
+msgstr ""
+
+#: inc/page-options.php:227 inc/page-options.php:717
+#: inc/page-options.php:1144 inc/page-options.php:1539
+#: inc/page-options.php:1757 inc/page-options.php:1800
+#: inc/page-options.php:2204 inc/theme-options.php:188
+#: inc/theme-options.php:541 inc/theme-options.php:1188
+#: widgets/widget-recent-posts.php:263
+msgid "Layout"
+msgstr ""
+
+#: inc/page-options.php:228 inc/page-options.php:718
+#: inc/page-options.php:1145 inc/page-options.php:1540
+#: inc/page-options.php:1801 inc/theme-options.php:542
+msgid "Select a layout for page title."
+msgstr ""
+
+#: inc/page-options.php:240 inc/page-options.php:730
+#: inc/page-options.php:1157 inc/page-options.php:1813
+#: vc_elements/cms_fancybox.php:164 vc_elements/cms_fancybox.php:166
+msgid "Sub Title"
+msgstr ""
+
+#: inc/page-options.php:247 inc/page-options.php:737
+#: inc/page-options.php:1164 inc/page-options.php:1820
+#: inc/theme-options.php:628 inc/theme-options.php:1411
+#: vc_elements/cms_accordion.php:33 vc_elements/cms_banner_carousel.php:67
+#: vc_elements/cms_call_to_action.php:59 vc_elements/cms_contact_form.php:31
+#: vc_elements/cms_contact_info.php:76 vc_elements/cms_contact_info.php:150
+#: vc_elements/cms_counter.php:55 vc_elements/cms_counter.php:58
+#: vc_elements/cms_counter.php:65 vc_elements/cms_divider_title.php:29
+#: vc_elements/cms_fancybox.php:107 vc_elements/cms_fancybox.php:110
+#: vc_elements/cms_fancybox.php:117 vc_elements/cms_fancybox.php:124
+#: vc_elements/cms_fancybox.php:131 vc_elements/cms_fancybox.php:138
+#: vc_elements/cms_fancybox.php:152 vc_elements/cms_googlemap.php:242
+#: vc_elements/cms_portfolio_details.php:38
+#: vc_elements/cms_portfolio_details.php:124
+#: vc_elements/cms_service_grid.php:315 vc_elements/cms_team_grid.php:50
+#: vc_elements/cms_team_grid.php:105 vc_elements/cms_team_member.php:54
+#: vc_elements/cms_testimonial_carousel.php:109
+#: vc_elements/cms_testimonial_carousel.php:156
+#: vc_elements/cms_testimonial_carousel.php:184
+#: vc_elements/cms_timeline_carousel.php:73 widgets/widget-getintouch.php:101
+msgid "Title"
+msgstr ""
+
+#: inc/page-options.php:248 inc/page-options.php:738
+#: inc/page-options.php:1165 inc/page-options.php:1553
+#: inc/page-options.php:1821
+msgid ""
+"Use custom title for this page. The default title will be used on document "
+"title."
+msgstr ""
+
+#: inc/page-options.php:255 inc/page-options.php:745
+#: inc/page-options.php:1172 inc/page-options.php:1560
+#: inc/page-options.php:1828 inc/theme-options.php:636
+#: inc/theme-options.php:1337 vc_elements/cms_contact_info.php:34
+#: vc_elements/cms_contact_info.php:178 vc_elements/cms_divider_title.php:34
+#: vc_elements/cms_list.php:33 vc_elements/cms_portfolio_grid.php:72
+#: vc_elements/cms_portfolio_grid.php:232
+#: vc_elements/cms_testimonial_carousel.php:250
+msgid "Title Color"
+msgstr ""
+
+#: inc/page-options.php:256 inc/page-options.php:324 inc/page-options.php:746
+#: inc/page-options.php:814 inc/page-options.php:1173
+#: inc/page-options.php:1241 inc/page-options.php:1561
+#: inc/page-options.php:1618 inc/page-options.php:1829
+#: inc/page-options.php:1897 inc/theme-options.php:637
+msgid "Page title color."
+msgstr ""
+
+#: inc/page-options.php:266 inc/page-options.php:756
+#: inc/page-options.php:1183 inc/page-options.php:1839
+#: vc_elements/cms_divider_title.php:40
+#: vc_elements/cms_testimonial_carousel.php:224
+msgid "Title Font Size"
+msgstr ""
+
+#: inc/page-options.php:277 inc/page-options.php:767
+#: inc/page-options.php:1194 inc/page-options.php:1571
+#: inc/page-options.php:1850 vc_elements/cms_call_to_action.php:66
+#: vc_elements/cms_fancybox.php:178 vc_elements/cms_fancybox.php:181
+#: vc_elements/cms_fancybox.php:199 vc_elements/cms_heading.php:292
+#: vc_elements/cms_heading.php:295 vc_elements/cms_heading.php:303
+#: vc_elements/cms_heading.php:311 vc_elements/cms_heading.php:318
+#: vc_elements/cms_service_grid.php:329 vc_elements/cms_team_grid.php:119
+#: vc_elements/cms_team_member.php:88
+msgid "Description"
+msgstr ""
+
+#: inc/page-options.php:323 inc/page-options.php:813
+#: inc/page-options.php:1240 inc/page-options.php:1617
+#: inc/page-options.php:1896
+msgid "Description Color"
+msgstr ""
+
+#: inc/page-options.php:334 inc/page-options.php:824
+#: inc/page-options.php:1251 inc/page-options.php:1628
+#: inc/page-options.php:1907 inc/theme-options.php:572
+#: inc/theme-options.php:1210
+msgid "Background"
+msgstr ""
+
+#: inc/page-options.php:335 inc/page-options.php:825
+#: inc/page-options.php:1252 inc/page-options.php:1629
+#: inc/page-options.php:1908 inc/theme-options.php:573
+msgid "Page title background."
+msgstr ""
+
+#: inc/page-options.php:348 inc/page-options.php:838
+#: inc/page-options.php:1265 inc/page-options.php:1642
+#: inc/page-options.php:1921 inc/theme-options.php:552
+msgid "Overlay Style"
+msgstr ""
+
+#: inc/page-options.php:363 inc/page-options.php:853
+#: inc/page-options.php:1280 inc/page-options.php:1657
+#: inc/page-options.php:1936 inc/theme-options.php:565
+msgid "Select Color"
+msgstr ""
+
+#: inc/page-options.php:370 inc/page-options.php:860
+#: inc/page-options.php:1287 inc/page-options.php:1664
+#: inc/page-options.php:1943 inc/theme-options.php:580
+#: inc/theme-options.php:1017
+msgid "Content Paddings"
+msgstr ""
+
+#: inc/page-options.php:371 inc/page-options.php:861
+#: inc/page-options.php:1288 inc/page-options.php:1665
+#: inc/page-options.php:1944 inc/theme-options.php:581
+msgid "Content page title paddings."
+msgstr ""
+
+#: inc/page-options.php:392 inc/page-options.php:882
+#: inc/page-options.php:1309 inc/page-options.php:1686
+#: inc/page-options.php:1965 inc/theme-options.php:619
+msgid "Content Align"
+msgstr ""
+
+#: inc/page-options.php:394 inc/page-options.php:884
+#: inc/page-options.php:1311 inc/page-options.php:1688
+#: inc/page-options.php:1967
+msgid "Theme Option"
+msgstr ""
+
+#: inc/page-options.php:395 inc/page-options.php:885
+#: inc/page-options.php:1312 inc/page-options.php:1689
+#: inc/page-options.php:1968 inc/page-options.php:2173
+#: inc/theme-options.php:621 inc/theme-options.php:752
+#: inc/theme-options.php:844 inc/theme-options.php:1624
+msgid "Left"
+msgstr ""
+
+#: inc/page-options.php:396 inc/page-options.php:886
+#: inc/page-options.php:1313 inc/page-options.php:1690
+#: inc/page-options.php:1969 inc/template-functions.php:635
+#: inc/theme-options.php:622 vc_elements/cms_portfolio_slider.php:190
+msgid "Center"
+msgstr ""
+
+#: inc/page-options.php:397 inc/page-options.php:887
+#: inc/page-options.php:1314 inc/page-options.php:1691
+#: inc/page-options.php:1970 inc/page-options.php:2174
+#: inc/theme-options.php:623 inc/theme-options.php:753
+#: inc/theme-options.php:845 inc/theme-options.php:1625
+msgid "Right"
+msgstr ""
+
+#: inc/page-options.php:406 inc/page-options.php:896
+#: inc/page-options.php:1323 inc/page-options.php:1700
+#: inc/page-options.php:1979
+msgid "Content Width"
+msgstr ""
+
+#: inc/page-options.php:418 inc/page-options.php:908
+#: inc/page-options.php:1335 inc/page-options.php:1991
+msgid "Show Button"
+msgstr ""
+
+#: inc/page-options.php:427 inc/page-options.php:917
+#: inc/page-options.php:1344 inc/page-options.php:2000
+#: vc_elements/cms_banner_carousel.php:85
+msgid "Button Text 1"
+msgstr ""
+
+#: inc/page-options.php:434 inc/page-options.php:924
+#: inc/page-options.php:1351 inc/page-options.php:2007
+#: vc_elements/cms_banner_carousel.php:91
+msgid "Button Link 1"
+msgstr ""
+
+#: inc/page-options.php:436 inc/page-options.php:476 inc/page-options.php:516
+#: inc/page-options.php:926 inc/page-options.php:966
+#: inc/page-options.php:1006 inc/page-options.php:1353
+#: inc/page-options.php:1393 inc/page-options.php:1433
+#: inc/page-options.php:2009 inc/page-options.php:2049
+#: inc/page-options.php:2089 inc/theme-options.php:426
+#: inc/theme-options.php:435
+msgid "Page Link"
+msgstr ""
+
+#: inc/page-options.php:437 inc/page-options.php:477 inc/page-options.php:517
+#: inc/page-options.php:927 inc/page-options.php:967
+#: inc/page-options.php:1007 inc/page-options.php:1354
+#: inc/page-options.php:1394 inc/page-options.php:1434
+#: inc/page-options.php:2010 inc/page-options.php:2050
+#: inc/page-options.php:2090 inc/theme-options.php:427
+#: inc/theme-options.php:449
+msgid "Custom Link"
+msgstr ""
+
+#: inc/page-options.php:446 inc/page-options.php:936
+#: inc/page-options.php:1363 inc/page-options.php:2019
+msgid "Page Link 1"
+msgstr ""
+
+#: inc/page-options.php:460 inc/page-options.php:950
+#: inc/page-options.php:1377 inc/page-options.php:2033
+msgid "Custom Link 1"
+msgstr ""
+
+#: inc/page-options.php:467 inc/page-options.php:957
+#: inc/page-options.php:1384 inc/page-options.php:2040
+#: vc_elements/cms_banner_carousel.php:97
+msgid "Button Text 2"
+msgstr ""
+
+#: inc/page-options.php:474 inc/page-options.php:964
+#: inc/page-options.php:1391 inc/page-options.php:2047
+#: vc_elements/cms_banner_carousel.php:103
+msgid "Button Link 2"
+msgstr ""
+
+#: inc/page-options.php:486 inc/page-options.php:976
+#: inc/page-options.php:1403 inc/page-options.php:2059
+msgid "Page Link 2"
+msgstr ""
+
+#: inc/page-options.php:500 inc/page-options.php:990
+#: inc/page-options.php:1417 inc/page-options.php:2073
+msgid "Custom Link 2"
+msgstr ""
+
+#: inc/page-options.php:507 inc/page-options.php:997
+#: inc/page-options.php:1424 inc/page-options.php:2080
+#: vc_elements/cms_banner_carousel.php:109
+msgid "Button Text 3"
+msgstr ""
+
+#: inc/page-options.php:514 inc/page-options.php:1004
+#: inc/page-options.php:1431 inc/page-options.php:2087
+#: vc_elements/cms_banner_carousel.php:115
+msgid "Button Link 3"
+msgstr ""
+
+#: inc/page-options.php:518 inc/page-options.php:1008
+#: inc/theme-options.php:373 inc/theme-options.php:1358
+#: inc/theme-options.php:2023 inc/theme-options.php:2179
+msgid "None"
+msgstr ""
+
+#: inc/page-options.php:527 inc/page-options.php:1017
+#: inc/page-options.php:1443 inc/page-options.php:2099
+msgid "Page Link 3"
+msgstr ""
+
+#: inc/page-options.php:541 inc/page-options.php:1031
+#: inc/page-options.php:1457 inc/page-options.php:2113
+msgid "Custom Link 3"
+msgstr ""
+
+#: inc/page-options.php:548 inc/page-options.php:1038
+msgid "Button Class 3"
+msgstr ""
+
+#: inc/page-options.php:555 inc/page-options.php:1045
+#: inc/page-options.php:1464 inc/page-options.php:2120
+#: vc_elements/cms_button.php:38
+msgid "Button Size"
+msgstr ""
+
+#: inc/page-options.php:580 inc/page-options.php:1068
+#: vc_elements/cms_googlemap.php:44 vc_elements/cms_googlemap.php:255
+msgid "Address"
+msgstr ""
+
+#: inc/page-options.php:581
+msgid "Address only show on CMS Grid Portfolio element."
+msgstr ""
+
+#: inc/page-options.php:586
+msgid "Flag"
+msgstr ""
+
+#: inc/page-options.php:618
+msgid "Brochure Link"
+msgstr ""
+
+#: inc/page-options.php:623
+#: template-parts/content-portfolio/content-estate.php:38
+msgid "Started Date"
+msgstr ""
+
+#: inc/page-options.php:628
+#: template-parts/content-portfolio/content-estate.php:41
+msgid "Ended Date"
+msgstr ""
+
+#: inc/page-options.php:633
+#: template-parts/content-portfolio/content-estate.php:44
+msgid "Property Value"
+msgstr ""
+
+#: inc/page-options.php:638
+#: template-parts/content-portfolio/content-estate.php:47
+msgid "Property Type"
+msgstr ""
+
+#: inc/page-options.php:667 inc/page-options.php:686
+msgid "Project Info"
+msgstr ""
+
+#: inc/page-options.php:675
+msgid "Title Info"
+msgstr ""
+
+#: inc/page-options.php:681 inc/page-options.php:695
+msgid "Odd order is label, even is content"
+msgstr ""
+
+#: inc/page-options.php:1062
+msgid "Career Settings"
+msgstr ""
+
+#: inc/page-options.php:1073
+#: template-parts/content-career/content-corporate.php:38
+msgid "Salary"
+msgstr ""
+
+#: inc/page-options.php:1078
+#: template-parts/content-career/content-corporate.php:33
+msgid "Contract Type"
+msgstr ""
+
+#: inc/page-options.php:1083
+#: template-parts/content-career/content-corporate.php:28
+msgid "Employment Length"
+msgstr ""
+
+#: inc/page-options.php:1118
+msgid "Career Apply Position"
+msgstr ""
+
+#: inc/page-options.php:1124 inc/page-options.php:2133
+#: inc/theme-options.php:680 vc_elements/cms_accordion.php:39
+#: vc_elements/cms_banner_carousel.php:73 vc_elements/cms_banner_tabs.php:79
+#: vc_elements/cms_contact_info.php:83 vc_elements/cms_contact_info.php:116
+#: vc_elements/cms_contact_info.php:157 vc_elements/cms_googlemap.php:232
+#: vc_elements/cms_googlemap.php:245 vc_elements/cms_googlemap.php:258
+#: vc_elements/cms_googlemap.php:271 vc_elements/cms_googlemap.php:284
+#: vc_elements/cms_portfolio_details.php:56
+#: vc_elements/cms_portfolio_details.php:130 vc_elements/cms_team_grid.php:20
+#: vc_elements/cms_team_grid.php:75
+#: vc_elements/cms_testimonial_carousel.php:121
+#: vc_elements/cms_testimonial_carousel.php:162
+#: vc_elements/cms_testimonial_carousel.php:196
+#: vc_elements/cms_timeline_carousel.php:79
+msgid "Content"
+msgstr ""
+
+#: inc/page-options.php:1130 inc/page-options.php:1786
+#: inc/theme-options.php:535
+msgid "Page Title"
+msgstr ""
+
+#: inc/page-options.php:1131 inc/page-options.php:1787
+msgid "Settings for page title."
+msgstr ""
+
+#: inc/page-options.php:1481
+msgid "Career Apply Information"
+msgstr ""
+
+#: inc/page-options.php:1487
+msgid "Career name"
+msgstr ""
+
+#: inc/page-options.php:1497
+msgid "CV"
+msgstr ""
+
+#: inc/page-options.php:1498 inc/page-options.php:1508
+msgid "Choose file."
+msgstr ""
+
+#: inc/page-options.php:1499 inc/page-options.php:1509
+msgid "Upload"
+msgstr ""
+
+#: inc/page-options.php:1500 inc/page-options.php:1510
+msgid "Remove"
+msgstr ""
+
+#: inc/page-options.php:1502
+msgid "Download"
+msgstr ""
+
+#: inc/page-options.php:1507
+msgid "Cover letter"
+msgstr ""
+
+#: inc/page-options.php:1516
+msgid "Message"
+msgstr ""
+
+#: inc/page-options.php:1552
+msgid "Custom Title"
+msgstr ""
+
+#: inc/page-options.php:1729
+msgid "Character Page"
+msgstr ""
+
+#: inc/page-options.php:1733 inc/page-options.php:2171
+#: inc/theme-options.php:749 inc/theme-options.php:841
+#: inc/theme-options.php:1621
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/page-options.php:1743 inc/theme-options.php:182
+msgid "Header"
+msgstr ""
+
+#: inc/page-options.php:1744
+msgid "Header settings for the page."
+msgstr ""
+
+#: inc/page-options.php:1750
+msgid "Custom Header"
+msgstr ""
+
+#: inc/page-options.php:1758 inc/theme-options.php:189
+msgid "Select a layout for header."
+msgstr ""
+
+#: inc/page-options.php:1776
+msgid "Menu fixed on Page Title"
+msgstr ""
+
+#: inc/page-options.php:2134
+msgid "Settings for content area."
+msgstr ""
+
+#: inc/page-options.php:2140 inc/theme-options.php:686
+#: inc/theme-options.php:1946
+msgid "Background Color"
+msgstr ""
+
+#: inc/page-options.php:2141 inc/theme-options.php:687
+msgid "Content background color."
+msgstr ""
+
+#: inc/page-options.php:2164
+msgid "Show Sidebar"
+msgstr ""
+
+#: inc/page-options.php:2190 inc/theme-options.php:1182
+msgid "Footer"
+msgstr ""
+
+#: inc/page-options.php:2191
+msgid "Settings for page footer."
+msgstr ""
+
+#: inc/page-options.php:2197
+msgid "Custom Footer"
+msgstr ""
+
+#: inc/page-options.php:2226
+msgid "Video URL"
+msgstr ""
+
+#: inc/page-options.php:2227
+msgid "YouTube or Vimeo video URL"
+msgstr ""
+
+#: inc/page-options.php:2233
+msgid "Video Upload"
+msgstr ""
+
+#: inc/page-options.php:2234
+msgid "Upload video file"
+msgstr ""
+
+#: inc/page-options.php:2240
+msgid "Embadded video"
+msgstr ""
+
+#: inc/page-options.php:2241
+msgid "Use this option when the video does not come from YouTube or Vimeo"
+msgstr ""
+
+#: inc/page-options.php:2252
+msgid "Lightbox?"
+msgstr ""
+
+#: inc/page-options.php:2253
+msgid "Enable lightbox for gallery images."
+msgstr ""
+
+#: inc/page-options.php:2259
+msgid "Gallery Images "
+msgstr ""
+
+#: inc/page-options.php:2260
+msgid "Upload images or add from media library."
+msgstr ""
+
+#: inc/page-options.php:2271
+msgid "Audio URL"
+msgstr ""
+
+#: inc/page-options.php:2272
+msgid "Audio file URL in format: mp3, ogg, wav."
+msgstr ""
+
+#: inc/page-options.php:2285
+msgid "URL"
+msgstr ""
+
+#: inc/page-options.php:2298
+msgid "Cite"
+msgstr ""
+
+#: inc/require.plugins.php:31
+msgid "1 Redux Framework"
+msgstr ""
+
+#: inc/require.plugins.php:37
+msgid "Cmssuperheroes"
+msgstr ""
+
+#: inc/require.plugins.php:44
+msgid "SWA Import Export"
+msgstr ""
+
+#: inc/require.plugins.php:51
+msgid "Visual Composer"
+msgstr ""
+
+#: inc/require.plugins.php:58
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/require.plugins.php:65
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/require.plugins.php:71
+msgid "Newsletter"
+msgstr ""
+
+#: inc/require.plugins.php:99
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/require.plugins.php:102
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/require.plugins.php:104
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/require.plugins.php:109
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/template-functions.php:134
+msgid "Blog"
+msgstr ""
+
+#: inc/template-functions.php:143
+msgid "404"
+msgstr ""
+
+#: inc/template-functions.php:145
+msgid "Search results"
+msgstr ""
+
+#: inc/template-functions.php:185
+msgid "Post password required."
+msgstr ""
+
+#: inc/template-functions.php:346
+msgid "Reply to comment"
+msgstr ""
+
+#: inc/template-functions.php:363 vc_elements/cms_googlemap.php:229
+msgid "Subtitle"
+msgstr ""
+
+#: inc/template-functions.php:393 inc/template-functions.php:394
+msgid "Services"
+msgstr ""
+
+#: inc/template-functions.php:410 inc/template-functions.php:411
+msgid "Careers"
+msgstr ""
+
+#: inc/template-functions.php:426 inc/template-functions.php:427
+#: vc_templates/cms_career_grid--layout3.php:118
+msgid "Apply Position"
+msgstr ""
+
+#: inc/template-functions.php:447
+msgid "Settings"
+msgstr ""
+
+#: inc/template-functions.php:462
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/template-functions.php:463
+msgid "elect icon image from media library."
+msgstr ""
+
+#: inc/template-functions.php:474 inc/template-functions.php:482
+#: vc_elements/cms_team_grid.php:64 vc_elements/cms_team_grid.php:126
+msgid "Category"
+msgstr ""
+
+#: inc/template-functions.php:475 inc/template-functions.php:483
+#: inc/theme-options.php:774 inc/theme-options.php:866
+msgid "Categories"
+msgstr ""
+
+#: inc/template-functions.php:547
+msgid "Columns XS (< 767px)"
+msgstr ""
+
+#: inc/template-functions.php:556
+msgid "Columns SM (< 991px)"
+msgstr ""
+
+#: inc/template-functions.php:565
+msgid "Columns MD (< 1199px)"
+msgstr ""
+
+#: inc/template-functions.php:574
+msgid "Columns LG (> 1200px)"
+msgstr ""
+
+#: inc/template-functions.php:583 vc_elements/cms_portfolio_slider.php:138
+msgid "Margin Items"
+msgstr ""
+
+#: inc/template-functions.php:591 vc_elements/cms_portfolio_slider.php:146
+msgid "Loop Items"
+msgstr ""
+
+#: inc/template-functions.php:601 vc_elements/cms_portfolio_slider.php:156
+msgid "Autoplay"
+msgstr ""
+
+#: inc/template-functions.php:611 vc_elements/cms_portfolio_slider.php:166
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: inc/template-functions.php:623 vc_elements/cms_portfolio_slider.php:178
+msgid "Smart Speed"
+msgstr ""
+
+#: inc/template-functions.php:645 vc_elements/cms_portfolio_slider.php:200
+msgid "Stage Padding"
+msgstr ""
+
+#: inc/template-functions.php:657 vc_elements/cms_portfolio_slider.php:212
+msgid "Show Arrows"
+msgstr ""
+
+#: inc/template-functions.php:667 vc_elements/cms_portfolio_slider.php:222
+msgid "Show Bullets"
+msgstr ""
+
+#: inc/template-functions.php:731 inc/template-functions.php:733
+#: inc/template-functions.php:734 inc/template-tags.php:494
+#: inc/template-tags.php:496 inc/template-tags.php:497
+#: inc/template-tags.php:503 inc/template-tags.php:505
+#: inc/template-tags.php:506 inc/template-tags.php:524
+#: template-parts/content-single/content-default.php:101
+#: vc_templates/cms_career.php:81 vc_templates/cms_career.php:83
+#: vc_templates/cms_career.php:84
+msgid "Share"
+msgstr ""
+
+#: inc/template-functions.php:732 inc/template-tags.php:495
+#: inc/template-tags.php:504 inc/template-tags.php:525
+#: vc_templates/cms_career.php:82 widgets/widget-social.php:83
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-functions.php:744 vc_templates/cms_career.php:79
+msgid "Apply for Position"
+msgstr ""
+
+#: inc/template-functions.php:748
+msgid "Your Name *"
+msgstr ""
+
+#: inc/template-functions.php:755
+msgid "Upload CV *"
+msgstr ""
+
+#: inc/template-functions.php:757 inc/template-functions.php:765
+msgid ""
+"File format not supported, you can only upload the following \"pdf,docx,doc"
+"\" file."
+msgstr ""
+
+#: inc/template-functions.php:758 inc/template-functions.php:766
+msgid "You can not upload files larger than 1MB"
+msgstr ""
+
+#: inc/template-functions.php:763
+msgid "Upload Cover Letter *"
+msgstr ""
+
+#: inc/template-functions.php:773
+msgid "Brief Message about Yourself *"
+msgstr ""
+
+#: inc/template-functions.php:780
+msgid "Please select file !"
+msgstr ""
+
+#: inc/template-functions.php:780
+msgid "Submit Application"
+msgstr ""
+
+#: inc/template-functions.php:857
+msgid "Apply successfully!"
+msgstr ""
+
+#: inc/template-tags.php:235 template-parts/content-search.php:32
+#: template-parts/content-single/content-construction-company.php:92
+#: template-parts/content-single/content-conversion.php:90
+#: template-parts/content-single/content-corporate.php:94
+#: template-parts/content-single/content-default.php:91
+#: template-parts/content-single/content-industrial.php:89
+#: template-parts/content-single/content-real-estate.php:90
+#: template-parts/content-single/content-renovation.php:91
+#: template-parts/content.php:91
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:267
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:327
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:328
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:353 inc/theme-options.php:309
+msgid "Navigation"
+msgstr ""
+
+#: inc/template-tags.php:375 inc/template-tags.php:410
+#: inc/template-tags.php:449
+msgid "Comment 0"
+msgstr ""
+
+#: inc/template-tags.php:375 inc/template-tags.php:410
+#: inc/template-tags.php:449
+msgid "Comment 1"
+msgstr ""
+
+#: inc/template-tags.php:375 inc/template-tags.php:410
+#: inc/template-tags.php:449
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:384 inc/template-tags.php:419
+#: inc/template-tags.php:455 inc/theme-options.php:781
+#: inc/theme-options.php:887
+msgid "Sticky"
+msgstr ""
+
+#: inc/template-tags.php:404 inc/template-tags.php:444
+#: inc/template-tags.php:1105 inc/template-tags.php:1178
+#: vc_templates/cms_blog_grid--layout6.php:140
+#: vc_templates/cms_blog_grid--layout7.php:137
+#: widgets/widget-recent-posts.php:141
+msgid "by"
+msgstr ""
+
+#: inc/template-tags.php:475 inc/theme-options.php:873
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:507
+msgid "Pin"
+msgstr ""
+
+#: inc/template-tags.php:513
+msgid "Share this Story:"
+msgstr ""
+
+#: inc/template-tags.php:531
+msgid "Share Story"
+msgstr ""
+
+#: inc/template-tags.php:575 inc/theme-options.php:1363
+#: inc/theme-options.php:1430
+msgid "Quick Contact"
+msgstr ""
+
+#: inc/template-tags.php:593 vc_elements/cms_team_grid.php:134
+#: vc_elements/cms_team_member.php:124 widgets/widget-social.php:17
+msgid "Social"
+msgstr ""
+
+#: inc/template-tags.php:605
+msgid "Follow Us!"
+msgstr ""
+
+#: inc/template-tags.php:641 inc/template-tags.php:688
+msgid "Previous Story"
+msgstr ""
+
+#: inc/template-tags.php:656 inc/template-tags.php:720
+msgid "Next Story"
+msgstr ""
+
+#: inc/template-tags.php:712 inc/template-tags.php:744
+#: vc_templates/cms_blog_grid--layout3.php:153
+#: vc_templates/cms_blog_grid--layout4.php:162
+#: vc_templates/cms_blog_grid.php:156
+msgid "Read Story"
+msgstr ""
+
+#: inc/template-tags.php:773
+msgid "Previous Project"
+msgstr ""
+
+#: inc/template-tags.php:794
+msgid "Next Project"
+msgstr ""
+
+#: inc/template-tags.php:970
+msgid "Request a Free Quotation"
+msgstr ""
+
+#: inc/template-tags.php:1021
+msgid "More News"
+msgstr ""
+
+#: inc/template-tags.php:1080
+msgid "Related Stories"
+msgstr ""
+
+#: inc/template-tags.php:1107 vc_templates/cms_blog_grid--layout6.php:142
+#: widgets/widget-recent-posts.php:143
+msgid "on"
+msgstr ""
+
+#: inc/template-tags.php:1113 vc_templates/cms_blog_carousel--layout4.php:65
+#: vc_templates/cms_blog_grid--layout6.php:148
+msgid "Read Full Story"
+msgstr ""
+
+#: inc/template-tags.php:1155
+msgid "Related News"
+msgstr ""
+
+#: inc/template-tags.php:1180 vc_templates/cms_blog_grid--layout7.php:139
+msgid "in"
+msgstr ""
+
+#: inc/theme-options.php:17 vc_elements/cms_career_grid.php:12
+#: vc_elements/cms_contact_form.php:11
+msgid "No contact forms found"
+msgstr ""
+
+#: inc/theme-options.php:38 inc/theme-options.php:39
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme-options.php:143
+msgid "General"
+msgstr ""
+
+#: inc/theme-options.php:149
+msgid "Enable Page Loading"
+msgstr ""
+
+#: inc/theme-options.php:150
+msgid "Enable page loading effect when you load site."
+msgstr ""
+
+#: inc/theme-options.php:156
+msgid "Smooth Scroll"
+msgstr ""
+
+#: inc/theme-options.php:162
+msgid "Parallax Scroll"
+msgstr ""
+
+#: inc/theme-options.php:168
+msgid "Parallax Scroll Speed"
+msgstr ""
+
+#: inc/theme-options.php:204
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/theme-options.php:205
+msgid "Header will be sticked when applicable."
+msgstr ""
+
+#: inc/theme-options.php:212
+msgid "Top Bar"
+msgstr ""
+
+#: inc/theme-options.php:219 inc/theme-options.php:1372
+#: widgets/widget-getintouch.php:104
+msgid "Phone Label"
+msgstr ""
+
+#: inc/theme-options.php:226 inc/theme-options.php:1380
+#: inc/theme-options.php:1425 vc_elements/cms_googlemap.php:281
+msgid "Phone"
+msgstr ""
+
+#: inc/theme-options.php:233
+msgid "Time Label"
+msgstr ""
+
+#: inc/theme-options.php:240
+msgid "Time"
+msgstr ""
+
+#: inc/theme-options.php:247 inc/theme-options.php:1388
+msgid "Email Label"
+msgstr ""
+
+#: inc/theme-options.php:262
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-options.php:269
+msgid "Logo Light"
+msgstr ""
+
+#: inc/theme-options.php:277
+msgid "Logo Dark"
+msgstr ""
+
+#: inc/theme-options.php:285
+msgid "Logo Tablet & Mobile"
+msgstr ""
+
+#: inc/theme-options.php:293
+msgid "Logo Max height"
+msgstr ""
+
+#: inc/theme-options.php:294
+msgid "Set maximum height for your logo, just in case the logo is too large."
+msgstr ""
+
+#: inc/theme-options.php:301
+msgid "Logo Max height Tablet & Mobile"
+msgstr ""
+
+#: inc/theme-options.php:316
+msgid "Menu Default Font"
+msgstr ""
+
+#: inc/theme-options.php:318
+msgid "Cabin"
+msgstr ""
+
+#: inc/theme-options.php:319 inc/theme-options.php:1695
+#: inc/theme-options.php:1720 inc/theme-options.php:1745
+#: inc/theme-options.php:2072
+msgid "GT Walsheim Regular"
+msgstr ""
+
+#: inc/theme-options.php:320 inc/theme-options.php:1696
+#: inc/theme-options.php:1719 inc/theme-options.php:1744
+#: inc/theme-options.php:2073
+msgid "GT Walsheim Medium"
+msgstr ""
+
+#: inc/theme-options.php:321 inc/theme-options.php:1697
+#: inc/theme-options.php:1721 inc/theme-options.php:1743
+#: inc/theme-options.php:2074
+msgid "GT Walsheim Bold"
+msgstr ""
+
+#: inc/theme-options.php:322 inc/theme-options.php:1698
+#: inc/theme-options.php:1722 inc/theme-options.php:1746
+#: inc/theme-options.php:2075
+msgid "Nimbus Sans Regular"
+msgstr ""
+
+#: inc/theme-options.php:323 inc/theme-options.php:1699
+#: inc/theme-options.php:1723 inc/theme-options.php:1747
+#: inc/theme-options.php:2076
+msgid "Nimbus Sans Bold"
+msgstr ""
+
+#: inc/theme-options.php:324 inc/theme-options.php:1700
+#: inc/theme-options.php:1724 inc/theme-options.php:1748
+#: inc/theme-options.php:2077
+msgid "Maison Neue Mono"
+msgstr ""
+
+#: inc/theme-options.php:325 inc/theme-options.php:1701
+#: inc/theme-options.php:1725 inc/theme-options.php:1749
+#: inc/theme-options.php:2078
+msgid "Maison Neue Bold"
+msgstr ""
+
+#: inc/theme-options.php:326 inc/theme-options.php:1702
+#: inc/theme-options.php:1726 inc/theme-options.php:1750
+#: inc/theme-options.php:2079
+msgid "Proxima Nova Bold"
+msgstr ""
+
+#: inc/theme-options.php:327 inc/theme-options.php:1703
+#: inc/theme-options.php:1727 inc/theme-options.php:1751
+#: inc/theme-options.php:2080
+msgid "Proxima Nova Semibold"
+msgstr ""
+
+#: inc/theme-options.php:328 inc/theme-options.php:1704
+#: inc/theme-options.php:1728 inc/theme-options.php:1752
+#: inc/theme-options.php:2081
+msgid "Proxima Nova Regular"
+msgstr ""
+
+#: inc/theme-options.php:329 inc/theme-options.php:1705
+#: inc/theme-options.php:1729 inc/theme-options.php:1753
+#: inc/theme-options.php:2082
+msgid "Calibre Regular"
+msgstr ""
+
+#: inc/theme-options.php:330 inc/theme-options.php:1706
+#: inc/theme-options.php:1730 inc/theme-options.php:1754
+#: inc/theme-options.php:2083
+msgid "Calibre Medium"
+msgstr ""
+
+#: inc/theme-options.php:331 inc/theme-options.php:1707
+#: inc/theme-options.php:1731 inc/theme-options.php:1755
+#: inc/theme-options.php:2084
+msgid "Calibre Semibold"
+msgstr ""
+
+#: inc/theme-options.php:332 inc/theme-options.php:1708
+#: inc/theme-options.php:1732 inc/theme-options.php:1756
+#: inc/theme-options.php:2085 vc_elements/cms_heading.php:253
+msgid "Norwester"
+msgstr ""
+
+#: inc/theme-options.php:333 inc/theme-options.php:372
+#: inc/theme-options.php:1357 inc/theme-options.php:1709
+#: inc/theme-options.php:1733 inc/theme-options.php:1757
+#: inc/theme-options.php:2022 inc/theme-options.php:2086
+#: inc/theme-options.php:2178
+msgid "Inherit"
+msgstr ""
+
+#: inc/theme-options.php:341
+msgid "Custom Google Font"
+msgstr ""
+
+#: inc/theme-options.php:357 inc/theme-options.php:645
+#: inc/theme-options.php:1342 vc_elements/cms_fancybox.php:121
+#: vc_elements/cms_heading.php:299 vc_elements/cms_list.php:63
+msgid "Font Size"
+msgstr ""
+
+#: inc/theme-options.php:366 inc/theme-options.php:1351
+#: inc/theme-options.php:2016 vc_elements/cms_heading.php:199
+msgid "Text Transform"
+msgstr ""
+
+#: inc/theme-options.php:368 inc/theme-options.php:1353
+#: inc/theme-options.php:2018 inc/theme-options.php:2174
+msgid "Capitalize"
+msgstr ""
+
+#: inc/theme-options.php:369 inc/theme-options.php:1354
+#: inc/theme-options.php:2019 inc/theme-options.php:2175
+msgid "Uppercase"
+msgstr ""
+
+#: inc/theme-options.php:370 inc/theme-options.php:1355
+#: inc/theme-options.php:2020 inc/theme-options.php:2176
+msgid "Lowercase"
+msgstr ""
+
+#: inc/theme-options.php:371 inc/theme-options.php:1356
+#: inc/theme-options.php:2021 inc/theme-options.php:2177
+msgid "Initial"
+msgstr ""
+
+#: inc/theme-options.php:378
+msgid "Main Menu"
+msgstr ""
+
+#: inc/theme-options.php:386 inc/theme-options.php:402
+#: inc/theme-options.php:1915 vc_elements/cms_counter.php:62
+#: vc_elements/cms_counter.php:92 vc_elements/cms_heading.php:315
+#: vc_elements/cms_overlay.php:20
+msgid "Color"
+msgstr ""
+
+#: inc/theme-options.php:394
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/theme-options.php:410
+msgid "Button Navigation"
+msgstr ""
+
+#: inc/theme-options.php:418 vc_elements/cms_banner_tabs.php:98
+#: vc_elements/cms_call_to_action.php:84 vc_elements/cms_fancybox.php:216
+#: vc_elements/cms_service_grid.php:342
+msgid "Button Text"
+msgstr ""
+
+#: inc/theme-options.php:424 vc_elements/cms_banner_tabs.php:104
+#: vc_elements/cms_call_to_action.php:91 vc_elements/cms_fancybox.php:228
+#: vc_elements/cms_service_grid.php:355
+msgid "Button Link"
+msgstr ""
+
+#: inc/theme-options.php:428
+msgid "Popup Contact Form 7"
+msgstr ""
+
+#: inc/theme-options.php:457
+msgid "Title Contact Form"
+msgstr ""
+
+#: inc/theme-options.php:465
+msgid "Select Contact Form"
+msgstr ""
+
+#: inc/theme-options.php:474
+msgid "Footer Contact Form"
+msgstr ""
+
+#: inc/theme-options.php:520
+msgid "Button Target"
+msgstr ""
+
+#: inc/theme-options.php:522
+msgid "Self"
+msgstr ""
+
+#: inc/theme-options.php:523
+msgid "Blank"
+msgstr ""
+
+#: inc/theme-options.php:600
+msgid "Content Paddings Tablet & Mobile"
+msgstr ""
+
+#: inc/theme-options.php:601
+msgid "Content page title paddings for Tablet & Mobile."
+msgstr ""
+
+#: inc/theme-options.php:654 vc_elements/cms_fancybox.php:128
+#: vc_elements/cms_heading.php:307 vc_elements/cms_list.php:70
+msgid "Line Height"
+msgstr ""
+
+#: inc/theme-options.php:661 inc/theme-options.php:669
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/theme-options.php:700
+msgid "Default: Top-85px, Bottom-85px"
+msgstr ""
+
+#: inc/theme-options.php:710
+msgid "Content & Sidebar Space"
+msgstr ""
+
+#: inc/theme-options.php:719
+msgid "Sidebar Styles"
+msgstr ""
+
+#: inc/theme-options.php:733
+msgid "Search Form - Text Placeholder"
+msgstr ""
+
+#: inc/theme-options.php:735
+msgid "Default: Search Keywords..."
+msgstr ""
+
+#: inc/theme-options.php:742
+msgid "Archive"
+msgstr ""
+
+#: inc/theme-options.php:750
+msgid "Select a sidebar position for blog home, archive, search..."
+msgstr ""
+
+#: inc/theme-options.php:754 inc/theme-options.php:846
+#: inc/theme-options.php:1626
+msgid "Disabled"
+msgstr ""
+
+#: inc/theme-options.php:760 inc/theme-options.php:852
+msgid "Author"
+msgstr ""
+
+#: inc/theme-options.php:761
+msgid "Show author name on each post."
+msgstr ""
+
+#: inc/theme-options.php:767 inc/theme-options.php:859
+msgid "Date"
+msgstr ""
+
+#: inc/theme-options.php:768
+msgid "Show date posted on each post."
+msgstr ""
+
+#: inc/theme-options.php:775
+msgid "Show category names on each post."
+msgstr ""
+
+#: inc/theme-options.php:782
+msgid "Show sticky on each post."
+msgstr ""
+
+#: inc/theme-options.php:789
+msgid "Show comments count on each post."
+msgstr ""
+
+#: inc/theme-options.php:796
+msgid "Pagination Styles"
+msgstr ""
+
+#: inc/theme-options.php:809
+msgid "Single Post"
+msgstr ""
+
+#: inc/theme-options.php:816
+msgid "Post Blog Layout"
+msgstr ""
+
+#: inc/theme-options.php:817
+msgid "Select a layout for post blog."
+msgstr ""
+
+#: inc/theme-options.php:832 inc/theme-options.php:1061
+#: inc/theme-options.php:1115
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/theme-options.php:842
+msgid "Select a sidebar position"
+msgstr ""
+
+#: inc/theme-options.php:853
+msgid "Show author name on single post."
+msgstr ""
+
+#: inc/theme-options.php:860
+msgid "Show date on single post."
+msgstr ""
+
+#: inc/theme-options.php:867
+msgid "Show category names on single post."
+msgstr ""
+
+#: inc/theme-options.php:874
+msgid "Show tag names on single post."
+msgstr ""
+
+#: inc/theme-options.php:881
+msgid "Show comments count on single post."
+msgstr ""
+
+#: inc/theme-options.php:888
+msgid "Show sticky on single post."
+msgstr ""
+
+#: inc/theme-options.php:894 inc/theme-options.php:903
+#: inc/theme-options.php:912 inc/theme-options.php:921
+#: inc/theme-options.php:930
+msgid "Social Share"
+msgstr ""
+
+#: inc/theme-options.php:895 inc/theme-options.php:904
+#: inc/theme-options.php:913 inc/theme-options.php:922
+#: inc/theme-options.php:931
+msgid "Show social share on single post."
+msgstr ""
+
+#: inc/theme-options.php:939
+msgid "Comments Form"
+msgstr ""
+
+#: inc/theme-options.php:940
+msgid "Show comments form on single post."
+msgstr ""
+
+#: inc/theme-options.php:946 inc/theme-options.php:955
+msgid "Navigation Links"
+msgstr ""
+
+#: inc/theme-options.php:947 inc/theme-options.php:956
+msgid "Show navigation link info on single post."
+msgstr ""
+
+#: inc/theme-options.php:964 inc/theme-options.php:973
+#: inc/theme-options.php:982
+msgid "Author Info"
+msgstr ""
+
+#: inc/theme-options.php:965 inc/theme-options.php:974
+#: inc/theme-options.php:983
+msgid "Author info on single post."
+msgstr ""
+
+#: inc/theme-options.php:992
+msgid "Show feature image on single post."
+msgstr ""
+
+#: inc/theme-options.php:998 inc/theme-options.php:1007
+msgid "Related Post"
+msgstr ""
+
+#: inc/theme-options.php:999 inc/theme-options.php:1008
+msgid "Show related post on single post."
+msgstr ""
+
+#: inc/theme-options.php:1018
+msgid "Content page title paddings on single post."
+msgstr ""
+
+#: inc/theme-options.php:1038
+msgid "Single Services"
+msgstr ""
+
+#: inc/theme-options.php:1045
+msgid "Service Layout"
+msgstr ""
+
+#: inc/theme-options.php:1046
+msgid "Select a layout for service."
+msgstr ""
+
+#: inc/theme-options.php:1069 inc/theme-options.php:1123
+msgid "Related Service"
+msgstr ""
+
+#: inc/theme-options.php:1070
+msgid "Show related service on single service."
+msgstr ""
+
+#: inc/theme-options.php:1079
+msgid "All Services Page"
+msgstr ""
+
+#: inc/theme-options.php:1092
+msgid "Single Portfolio"
+msgstr ""
+
+#: inc/theme-options.php:1099
+msgid "Portfolio Layout"
+msgstr ""
+
+#: inc/theme-options.php:1100
+msgid "Select a layout for portfolio."
+msgstr ""
+
+#: inc/theme-options.php:1124
+msgid "Show related portfolio on single portfolio."
+msgstr ""
+
+#: inc/theme-options.php:1133
+msgid "All Portfolio Page"
+msgstr ""
+
+#: inc/theme-options.php:1146
+msgid "Single Careers"
+msgstr ""
+
+#: inc/theme-options.php:1153
+msgid "Careers Layout"
+msgstr ""
+
+#: inc/theme-options.php:1154
+msgid "Select a layout for career."
+msgstr ""
+
+#: inc/theme-options.php:1165
+msgid "All Careers Page"
+msgstr ""
+
+#: inc/theme-options.php:1189
+msgid "Select a layout for upper footer area."
+msgstr ""
+
+#: inc/theme-options.php:1203
+msgid "Background Overlay"
+msgstr ""
+
+#: inc/theme-options.php:1204
+msgid "Footer top background color overlay"
+msgstr ""
+
+#: inc/theme-options.php:1211
+msgid "Footer background."
+msgstr ""
+
+#: inc/theme-options.php:1219
+msgid "Back to Top Button"
+msgstr ""
+
+#: inc/theme-options.php:1220
+msgid "Show back to top button when scrolled down."
+msgstr ""
+
+#: inc/theme-options.php:1226
+msgid "Back to Top Styles"
+msgstr ""
+
+#: inc/theme-options.php:1241
+msgid "Footer Top"
+msgstr ""
+
+#: inc/theme-options.php:1248
+msgid "Columns"
+msgstr ""
+
+#: inc/theme-options.php:1250
+msgid "2 Column"
+msgstr ""
+
+#: inc/theme-options.php:1251
+msgid "3 Column"
+msgstr ""
+
+#: inc/theme-options.php:1252
+msgid "4 Column"
+msgstr ""
+
+#: inc/theme-options.php:1259 inc/theme-options.php:1271
+#: inc/theme-options.php:1286
+msgid "Custom Width Column"
+msgstr ""
+
+#: inc/theme-options.php:1261 inc/theme-options.php:1273
+#: inc/theme-options.php:1288
+msgid "Yes"
+msgstr ""
+
+#: inc/theme-options.php:1262 inc/theme-options.php:1274
+#: inc/theme-options.php:1289
+msgid "No"
+msgstr ""
+
+#: inc/theme-options.php:1301
+msgid "Paddings"
+msgstr ""
+
+#: inc/theme-options.php:1302
+msgid "Footer top paddings."
+msgstr ""
+
+#: inc/theme-options.php:1315 vc_elements/cms_fancybox.php:114
+#: vc_elements/cms_fancybox.php:196 vc_elements/cms_heading.php:220
+msgid "Text Color"
+msgstr ""
+
+#: inc/theme-options.php:1321
+msgid "Links Color"
+msgstr ""
+
+#: inc/theme-options.php:1329
+msgid "Widget Title"
+msgstr ""
+
+#: inc/theme-options.php:1402
+msgid "Call To Action"
+msgstr ""
+
+#: inc/theme-options.php:1439
+msgid "Text 1"
+msgstr ""
+
+#: inc/theme-options.php:1442 inc/theme-options.php:1489
+#: inc/theme-options.php:1544
+msgid "Custom HTML Allowed: a,br,em,strong,span,p,div,h1->h6"
+msgstr ""
+
+#: inc/theme-options.php:1486
+msgid "Text 2"
+msgstr ""
+
+#: inc/theme-options.php:1534
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/theme-options.php:1541
+msgid "Copyright"
+msgstr ""
+
+#: inc/theme-options.php:1615
+msgid "Shop"
+msgstr ""
+
+#: inc/theme-options.php:1622
+msgid "Select a sidebar position for shop"
+msgstr ""
+
+#: inc/theme-options.php:1631
+msgid "Products displayed per page"
+msgstr ""
+
+#: inc/theme-options.php:1634
+msgid "Number product to show"
+msgstr ""
+
+#: inc/theme-options.php:1651
+msgid "Colors"
+msgstr ""
+
+#: inc/theme-options.php:1657
+msgid "Primary Color"
+msgstr ""
+
+#: inc/theme-options.php:1664
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/theme-options.php:1671
+msgid "Link Colors"
+msgstr ""
+
+#: inc/theme-options.php:1687
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-options.php:1693
+msgid "Body Default Font"
+msgstr ""
+
+#: inc/theme-options.php:1717
+msgid "Heading Default Font Medium"
+msgstr ""
+
+#: inc/theme-options.php:1741
+msgid "Heading Default Font Bold"
+msgstr ""
+
+#: inc/theme-options.php:1769
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/theme-options.php:1776
+msgid "Main Font"
+msgstr ""
+
+#: inc/theme-options.php:1777 inc/theme-options.php:1871
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: inc/theme-options.php:1790
+msgid "H1"
+msgstr ""
+
+#: inc/theme-options.php:1791
+msgid "Heading 1 typography."
+msgstr ""
+
+#: inc/theme-options.php:1802
+msgid "H2"
+msgstr ""
+
+#: inc/theme-options.php:1803
+msgid "Heading 2 typography."
+msgstr ""
+
+#: inc/theme-options.php:1814
+msgid "H3"
+msgstr ""
+
+#: inc/theme-options.php:1815
+msgid "Heading 3 typography."
+msgstr ""
+
+#: inc/theme-options.php:1826
+msgid "H4"
+msgstr ""
+
+#: inc/theme-options.php:1827
+msgid "Heading 4 typography."
+msgstr ""
+
+#: inc/theme-options.php:1838
+msgid "H5"
+msgstr ""
+
+#: inc/theme-options.php:1839
+msgid "Heading 5 typography."
+msgstr ""
+
+#: inc/theme-options.php:1850
+msgid "H6"
+msgstr ""
+
+#: inc/theme-options.php:1851
+msgid "Heading 6 typography."
+msgstr ""
+
+#: inc/theme-options.php:1863
+msgid "Fonts Selectors"
+msgstr ""
+
+#: inc/theme-options.php:1870
+msgid "Custom Font"
+msgstr ""
+
+#: inc/theme-options.php:1883
+msgid "CSS Selectors"
+msgstr ""
+
+#: inc/theme-options.php:1884
+msgid "Add css selectors to apply above font."
+msgstr ""
+
+#: inc/theme-options.php:1892
+msgid "Buttons"
+msgstr ""
+
+#: inc/theme-options.php:1899
+msgid "Button Font"
+msgstr ""
+
+#: inc/theme-options.php:1926
+msgid "Border Color"
+msgstr ""
+
+#: inc/theme-options.php:1936
+msgid "Background Color Type"
+msgstr ""
+
+#: inc/theme-options.php:1938
+msgid "Normal"
+msgstr ""
+
+#: inc/theme-options.php:1939
+msgid "Gradient"
+msgstr ""
+
+#: inc/theme-options.php:1958
+msgid "Gradient Color Regular"
+msgstr ""
+
+#: inc/theme-options.php:1971
+msgid "Gradient Color Hover"
+msgstr ""
+
+#: inc/theme-options.php:1984
+msgid "Border"
+msgstr ""
+
+#: inc/theme-options.php:1998
+msgid "Border Radius"
+msgstr ""
+
+#: inc/theme-options.php:2030
+msgid "Padding"
+msgstr ""
+
+#: inc/theme-options.php:2049
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/theme-options.php:2055
+msgid "Text Shadow"
+msgstr ""
+
+#: inc/theme-options.php:2063
+msgid "Form Styles"
+msgstr ""
+
+#: inc/theme-options.php:2070
+msgid "Fields Default Font"
+msgstr ""
+
+#: inc/theme-options.php:2093
+msgid "Fields Font"
+msgstr ""
+
+#: inc/theme-options.php:2109
+msgid "Fields Color"
+msgstr ""
+
+#: inc/theme-options.php:2120
+msgid "Fields Border Color"
+msgstr ""
+
+#: inc/theme-options.php:2130
+msgid "Fields Background Color"
+msgstr ""
+
+#: inc/theme-options.php:2140
+msgid "Fields Border"
+msgstr ""
+
+#: inc/theme-options.php:2154
+msgid "Fields Border Radius"
+msgstr ""
+
+#: inc/theme-options.php:2172
+msgid "Fields Text Transform"
+msgstr ""
+
+#: inc/theme-options.php:2186
+msgid "Fields Padding"
+msgstr ""
+
+#: inc/theme-options.php:2205
+msgid "Fields Box Shadow"
+msgstr ""
+
+#: inc/theme-options.php:2211
+msgid "Textarea Height"
+msgstr ""
+
+#: inc/theme-options.php:2222
+msgid "Social Media"
+msgstr ""
+
+#: inc/theme-options.php:2229
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/theme-options.php:2235
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/theme-options.php:2241
+msgid "Inkedin URL"
+msgstr ""
+
+#: inc/theme-options.php:2247
+msgid "Rss URL"
+msgstr ""
+
+#: inc/theme-options.php:2253
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/theme-options.php:2259
+msgid "Google URL"
+msgstr ""
+
+#: inc/theme-options.php:2265
+msgid "Skype URL"
+msgstr ""
+
+#: inc/theme-options.php:2271
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/theme-options.php:2277
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/theme-options.php:2283
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/theme-options.php:2289
+msgid "Yelp URL"
+msgstr ""
+
+#: inc/theme-options.php:2295
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/theme-options.php:2301
+msgid "Tripadvisor URL"
+msgstr ""
+
+#: inc/theme-options.php:2309
+msgid "Custom Code"
+msgstr ""
+
+#: inc/theme-options.php:2317
+msgid "Header Custom Codes"
+msgstr ""
+
+#: inc/theme-options.php:2318
+msgid "It will insert the code to wp_head hook."
+msgstr ""
+
+#: inc/theme-options.php:2324
+msgid "Footer Custom Codes"
+msgstr ""
+
+#: inc/theme-options.php:2325
+msgid "It will insert the code to wp_footer hook."
+msgstr ""
+
+#: inc/theme-options.php:2333 inc/theme-options.php:2340
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-options.php:2346
+msgid "CSS Code"
+msgstr ""
+
+#: inc/theme-options.php:2347
+msgid "Advanced CSS Options. You can paste your custom CSS Code here."
+msgstr ""
+
+#: searchform.php:11
+msgid "Search Keywords..."
+msgstr ""
+
+#: searchform.php:14 template-parts/header-layout-4.php:57
+msgid "Search"
+msgstr ""
+
+#: template-parts/cartform.php:12
+msgid "Cart"
+msgstr ""
+
+#: template-parts/content-career/content-construction-company.php:24
+msgid "Posted on"
+msgstr ""
+
+#: template-parts/content-career/content-construction-company.php:28
+msgid "Apply Now"
+msgstr ""
+
+#: template-parts/content-career/content-corporate.php:69
+msgid "Similar Positions"
+msgstr ""
+
+#: template-parts/content-career/content-corporate.php:77
+#: vc_templates/cms_career_grid--layout2.php:124
+msgid "View Position"
+msgstr ""
+
+#: template-parts/content-career/content-corporate.php:90
+msgid "Job Location:"
+msgstr ""
+
+#: template-parts/content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-portfolio/content-construction-company.php:50
+msgid "Related Projects"
+msgstr ""
+
+#: template-parts/content-portfolio/content-corporate.php:57
+msgid "Project Description"
+msgstr ""
+
+#: template-parts/content-portfolio/content-default.php:78
+msgid "View Gallery"
+msgstr ""
+
+#: template-parts/content-portfolio/content-estate.php:71
+msgid "Hide Thumbnails"
+msgstr ""
+
+#: template-parts/content-portfolio/content-estate.php:72
+msgid "Show Thumbnails"
+msgstr ""
+
+#: template-parts/content-portfolio/content-estate.php:85
+msgid "Gallery View"
+msgstr ""
+
+#: template-parts/content-portfolio/content-estate.php:88
+msgid "Location View"
+msgstr ""
+
+#: template-parts/content-portfolio/content-estate.php:91
+msgid "Download Brochure"
+msgstr ""
+
+#: template-parts/content-portfolio/content-estate.php:94
+msgid "Share Project"
+msgstr ""
+
+#: template-parts/content-search.php:40 template-parts/content.php:99
+#: vc_templates/cms_blog_carousel--layout2.php:71
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-service/content-construction-company.php:56
+msgid "Related Services"
+msgstr ""
+
+#: template-parts/content-single/content-construction-company.php:112
+#: template-parts/content-single/content-real-estate.php:116
+msgid "Written by"
+msgstr ""
+
+#: template-parts/header-menu.php:21
+msgid "Create New Menu"
+msgstr ""
+
+#: template-parts/page-title.php:121
+msgid "Back to All News"
+msgstr ""
+
+#: userpress/default/form-login.php:20 userpress/default/form-login.php:23
+#: userpress/default/form-register.php:20
+#: userpress/default/form-register.php:23
+#: userpress/default/form-register.php:26
+#: userpress/default/form-register.php:29
+msgid "Required Field"
+msgstr ""
+
+#: userpress/default/form-login.php:29
+msgid "Remember!"
+msgstr ""
+
+#: userpress/default/form-login.php:32
+msgid "Forget Password?"
+msgstr ""
+
+#: userpress/default/form-login.php:38
+msgid "Sign In"
+msgstr ""
+
+#: userpress/default/form-register.php:20
+msgid "Username too short. At least 4 characters is required."
+msgstr ""
+
+#: userpress/default/form-register.php:20
+msgid ""
+"The value of text field can't contain any of the following characters: "
+"\\ / : * ? \" < > space"
+msgstr ""
+
+#: userpress/default/form-register.php:23
+msgid "The Email address is incorrect!"
+msgstr ""
+
+#: userpress/default/form-register.php:26
+msgid "Password"
+msgstr ""
+
+#: userpress/default/form-register.php:26
+msgid "Password length must be greater than 5."
+msgstr ""
+
+#: userpress/default/form-register.php:29
+msgid "Confirm Password"
+msgstr ""
+
+#: userpress/default/form-register.php:29
+msgid "Your password and confirmation password do not match."
+msgstr ""
+
+#: userpress/default/form-register.php:35
+msgid "I agree to the terms & conditions"
+msgstr ""
+
+#: userpress/default/form-register.php:41
+msgid "Sign Up"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:6 vc_elements/cms_angled.php:6
+#: vc_elements/cms_banner.php:6 vc_elements/cms_banner_carousel.php:6
+#: vc_elements/cms_banner_tabs.php:6 vc_elements/cms_blog_carousel.php:7
+#: vc_elements/cms_blog_grid.php:8 vc_elements/cms_blog_tab.php:6
+#: vc_elements/cms_blog_timeline.php:7 vc_elements/cms_button.php:6
+#: vc_elements/cms_call_to_action.php:6 vc_elements/cms_career.php:8
+#: vc_elements/cms_career_grid.php:22 vc_elements/cms_client_carousel.php:6
+#: vc_elements/cms_contact_form.php:18 vc_elements/cms_contact_info.php:6
+#: vc_elements/cms_counter.php:7 vc_elements/cms_custom_menu.php:17
+#: vc_elements/cms_divider_title.php:6 vc_elements/cms_fancybox.php:6
+#: vc_elements/cms_file_download.php:7 vc_elements/cms_googlemap.php:6
+#: vc_elements/cms_heading.php:6 vc_elements/cms_icon.php:6
+#: vc_elements/cms_image_gallery.php:6 vc_elements/cms_list.php:6
+#: vc_elements/cms_marker_map.php:6 vc_elements/cms_newsletter.php:32
+#: vc_elements/cms_overlay.php:6 vc_elements/cms_portfolio_carousel.php:7
+#: vc_elements/cms_portfolio_categories.php:7
+#: vc_elements/cms_portfolio_details.php:6
+#: vc_elements/cms_portfolio_grid.php:8
+#: vc_elements/cms_portfolio_slider.php:7 vc_elements/cms_portfolio_tab.php:8
+#: vc_elements/cms_service_carousel.php:7 vc_elements/cms_service_grid.php:8
+#: vc_elements/cms_space.php:6 vc_elements/cms_team_grid.php:7
+#: vc_elements/cms_team_member.php:7
+#: vc_elements/cms_testimonial_carousel.php:6
+#: vc_elements/cms_timeline_carousel.php:6 vc_elements/cms_video.php:7
+msgid "CmsSuperheroes Shortcodes"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:13 vc_elements/cms_banner_carousel.php:14
+#: vc_elements/cms_banner_tabs.php:14 vc_elements/cms_blog_carousel.php:14
+#: vc_elements/cms_blog_grid.php:14 vc_elements/cms_blog_tab.php:12
+#: vc_elements/cms_blog_timeline.php:14 vc_elements/cms_call_to_action.php:12
+#: vc_elements/cms_career.php:14 vc_elements/cms_career_grid.php:28
+#: vc_elements/cms_client_carousel.php:14 vc_elements/cms_contact_form.php:24
+#: vc_elements/cms_contact_info.php:12 vc_elements/cms_counter.php:15
+#: vc_elements/cms_custom_menu.php:24 vc_elements/cms_fancybox.php:14
+#: vc_elements/cms_file_download.php:15 vc_elements/cms_googlemap.php:12
+#: vc_elements/cms_list.php:13 vc_elements/cms_portfolio_carousel.php:14
+#: vc_elements/cms_portfolio_categories.php:13
+#: vc_elements/cms_portfolio_details.php:13
+#: vc_elements/cms_portfolio_grid.php:14
+#: vc_elements/cms_portfolio_slider.php:14
+#: vc_elements/cms_portfolio_tab.php:14
+#: vc_elements/cms_service_carousel.php:14
+#: vc_elements/cms_service_grid.php:14 vc_elements/cms_team_grid.php:13
+#: vc_elements/cms_team_member.php:13
+#: vc_elements/cms_testimonial_carousel.php:14
+#: vc_elements/cms_timeline_carousel.php:14 vc_elements/cms_video.php:15
+msgid "Shortcode Template"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:16 vc_elements/cms_banner_carousel.php:16
+#: vc_elements/cms_banner_carousel.php:24
+#: vc_elements/cms_banner_carousel.php:33
+#: vc_elements/cms_banner_carousel.php:43
+#: vc_elements/cms_banner_carousel.php:51 vc_elements/cms_banner_tabs.php:16
+#: vc_elements/cms_banner_tabs.php:24 vc_elements/cms_banner_tabs.php:33
+#: vc_elements/cms_banner_tabs.php:43 vc_elements/cms_banner_tabs.php:51
+#: vc_elements/cms_blog_carousel.php:17 vc_elements/cms_blog_carousel.php:24
+#: vc_elements/cms_blog_carousel.php:33 vc_elements/cms_blog_carousel.php:43
+#: vc_elements/cms_blog_carousel.php:51 vc_elements/cms_blog_carousel.php:65
+#: vc_elements/cms_blog_grid.php:17 vc_elements/cms_blog_grid.php:24
+#: vc_elements/cms_blog_tab.php:15 vc_elements/cms_blog_tab.php:22
+#: vc_elements/cms_blog_tab.php:32 vc_elements/cms_blog_tab.php:40
+#: vc_elements/cms_blog_timeline.php:17 vc_elements/cms_blog_timeline.php:24
+#: vc_elements/cms_blog_timeline.php:33 vc_elements/cms_blog_timeline.php:43
+#: vc_elements/cms_blog_timeline.php:51 vc_elements/cms_call_to_action.php:15
+#: vc_elements/cms_call_to_action.php:22
+#: vc_elements/cms_call_to_action.php:31
+#: vc_elements/cms_call_to_action.php:41
+#: vc_elements/cms_call_to_action.php:49 vc_elements/cms_career.php:17
+#: vc_elements/cms_career.php:24 vc_elements/cms_career.php:39
+#: vc_elements/cms_career_grid.php:31 vc_elements/cms_career_grid.php:38
+#: vc_elements/cms_career_grid.php:255 vc_elements/cms_career_grid.php:262
+#: vc_elements/cms_career_grid.php:272 vc_elements/cms_career_grid.php:280
+#: vc_elements/cms_client_carousel.php:16
+#: vc_elements/cms_client_carousel.php:24
+#: vc_elements/cms_client_carousel.php:33
+#: vc_elements/cms_client_carousel.php:43
+#: vc_elements/cms_client_carousel.php:51 vc_elements/cms_contact_form.php:27
+#: vc_elements/cms_contact_form.php:33 vc_elements/cms_contact_form.php:48
+#: vc_elements/cms_contact_form.php:65 vc_elements/cms_contact_form.php:81
+#: vc_elements/cms_contact_form.php:97 vc_elements/cms_contact_form.php:113
+#: vc_elements/cms_contact_form.php:125 vc_elements/cms_contact_form.php:137
+#: vc_elements/cms_contact_info.php:15 vc_elements/cms_contact_info.php:23
+#: vc_elements/cms_contact_info.php:37 vc_elements/cms_contact_info.php:60
+#: vc_elements/cms_counter.php:17 vc_elements/cms_counter.php:35
+#: vc_elements/cms_counter.php:49 vc_elements/cms_custom_menu.php:27
+#: vc_elements/cms_custom_menu.php:37 vc_elements/cms_custom_menu.php:50
+#: vc_elements/cms_custom_menu.php:59 vc_elements/cms_fancybox.php:17
+#: vc_elements/cms_fancybox.php:24 vc_elements/cms_fancybox.php:42
+#: vc_elements/cms_fancybox.php:55 vc_elements/cms_fancybox.php:68
+#: vc_elements/cms_fancybox.php:77 vc_elements/cms_fancybox.php:87
+#: vc_elements/cms_fancybox.php:95 vc_elements/cms_file_download.php:17
+#: vc_elements/cms_file_download.php:40 vc_elements/cms_file_download.php:49
+#: vc_elements/cms_file_download.php:59 vc_elements/cms_file_download.php:67
+#: vc_elements/cms_googlemap.php:15 vc_elements/cms_googlemap.php:27
+#: vc_elements/cms_list.php:16 vc_elements/cms_list.php:29
+#: vc_elements/cms_list.php:42 vc_elements/cms_portfolio_carousel.php:17
+#: vc_elements/cms_portfolio_carousel.php:24
+#: vc_elements/cms_portfolio_carousel.php:34
+#: vc_elements/cms_portfolio_carousel.php:44
+#: vc_elements/cms_portfolio_carousel.php:52
+#: vc_elements/cms_portfolio_categories.php:16
+#: vc_elements/cms_portfolio_categories.php:23
+#: vc_elements/cms_portfolio_categories.php:33
+#: vc_elements/cms_portfolio_categories.php:41
+#: vc_elements/cms_portfolio_details.php:16
+#: vc_elements/cms_portfolio_details.php:27
+#: vc_elements/cms_portfolio_grid.php:17
+#: vc_elements/cms_portfolio_grid.php:27
+#: vc_elements/cms_portfolio_grid.php:44
+#: vc_elements/cms_portfolio_grid.php:51
+#: vc_elements/cms_portfolio_grid.php:63
+#: vc_elements/cms_portfolio_grid.php:75
+#: vc_elements/cms_portfolio_slider.php:17
+#: vc_elements/cms_portfolio_slider.php:24
+#: vc_elements/cms_portfolio_slider.php:34
+#: vc_elements/cms_portfolio_slider.php:44
+#: vc_elements/cms_portfolio_slider.php:52
+#: vc_elements/cms_portfolio_tab.php:17
+#: vc_elements/cms_service_carousel.php:17
+#: vc_elements/cms_service_carousel.php:24
+#: vc_elements/cms_service_carousel.php:34
+#: vc_elements/cms_service_carousel.php:44
+#: vc_elements/cms_service_carousel.php:52
+#: vc_elements/cms_service_grid.php:17 vc_elements/cms_service_grid.php:28
+#: vc_elements/cms_team_grid.php:16 vc_elements/cms_team_member.php:16
+#: vc_elements/cms_team_member.php:26 vc_elements/cms_team_member.php:42
+#: vc_elements/cms_testimonial_carousel.php:16
+#: vc_elements/cms_testimonial_carousel.php:27
+#: vc_elements/cms_testimonial_carousel.php:56
+#: vc_elements/cms_testimonial_carousel.php:65
+#: vc_elements/cms_testimonial_carousel.php:75
+#: vc_elements/cms_testimonial_carousel.php:83
+#: vc_elements/cms_timeline_carousel.php:16
+#: vc_elements/cms_timeline_carousel.php:24
+#: vc_elements/cms_timeline_carousel.php:33
+#: vc_elements/cms_timeline_carousel.php:43
+#: vc_elements/cms_timeline_carousel.php:51 vc_elements/cms_video.php:17
+#: vc_elements/cms_video.php:25 vc_elements/cms_video.php:34
+#: vc_elements/cms_video.php:44 vc_elements/cms_video.php:52
+msgid "Template"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:20 vc_elements/cms_career.php:85
+msgid "Active section"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:26
+msgid "Accordion Items"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:28
+msgid "Enter values for accordion item"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:48 vc_elements/cms_banner.php:18
+#: vc_elements/cms_banner_carousel.php:21 vc_elements/cms_banner_tabs.php:21
+#: vc_elements/cms_blog_carousel.php:21 vc_elements/cms_blog_grid.php:308
+#: vc_elements/cms_blog_tab.php:19 vc_elements/cms_blog_timeline.php:21
+#: vc_elements/cms_button.php:163 vc_elements/cms_call_to_action.php:19
+#: vc_elements/cms_career.php:148 vc_elements/cms_career_grid.php:259
+#: vc_elements/cms_client_carousel.php:21
+#: vc_elements/cms_contact_form.php:142 vc_elements/cms_contact_info.php:216
+#: vc_elements/cms_counter.php:124 vc_elements/cms_custom_menu.php:47
+#: vc_elements/cms_fancybox.php:65 vc_elements/cms_file_download.php:37
+#: vc_elements/cms_heading.php:323 vc_elements/cms_icon.php:87
+#: vc_elements/cms_image_gallery.php:231 vc_elements/cms_marker_map.php:77
+#: vc_elements/cms_newsletter.php:56
+#: vc_elements/cms_portfolio_carousel.php:21
+#: vc_elements/cms_portfolio_categories.php:20
+#: vc_elements/cms_portfolio_details.php:144
+#: vc_elements/cms_portfolio_grid.php:397
+#: vc_elements/cms_portfolio_slider.php:21
+#: vc_elements/cms_portfolio_tab.php:63
+#: vc_elements/cms_service_carousel.php:21
+#: vc_elements/cms_service_grid.php:283 vc_elements/cms_team_grid.php:291
+#: vc_elements/cms_team_member.php:163
+#: vc_elements/cms_testimonial_carousel.php:53
+#: vc_elements/cms_timeline_carousel.php:21 vc_elements/cms_video.php:22
+msgid "Extra class name"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:50 vc_elements/cms_banner.php:20
+#: vc_elements/cms_banner_carousel.php:23 vc_elements/cms_banner_tabs.php:23
+#: vc_elements/cms_blog_carousel.php:23 vc_elements/cms_blog_grid.php:310
+#: vc_elements/cms_blog_tab.php:21 vc_elements/cms_blog_timeline.php:23
+#: vc_elements/cms_button.php:165 vc_elements/cms_call_to_action.php:21
+#: vc_elements/cms_career.php:150 vc_elements/cms_career_grid.php:261
+#: vc_elements/cms_client_carousel.php:23
+#: vc_elements/cms_contact_form.php:144 vc_elements/cms_contact_info.php:218
+#: vc_elements/cms_counter.php:126 vc_elements/cms_custom_menu.php:49
+#: vc_elements/cms_fancybox.php:67 vc_elements/cms_file_download.php:39
+#: vc_elements/cms_heading.php:325 vc_elements/cms_icon.php:89
+#: vc_elements/cms_image_gallery.php:233 vc_elements/cms_marker_map.php:79
+#: vc_elements/cms_newsletter.php:58
+#: vc_elements/cms_portfolio_carousel.php:23
+#: vc_elements/cms_portfolio_categories.php:22
+#: vc_elements/cms_portfolio_details.php:146
+#: vc_elements/cms_portfolio_grid.php:399
+#: vc_elements/cms_portfolio_slider.php:23
+#: vc_elements/cms_portfolio_tab.php:65
+#: vc_elements/cms_service_carousel.php:23
+#: vc_elements/cms_service_grid.php:285 vc_elements/cms_team_grid.php:293
+#: vc_elements/cms_team_member.php:165
+#: vc_elements/cms_testimonial_carousel.php:55
+#: vc_elements/cms_timeline_carousel.php:23 vc_elements/cms_video.php:24
+msgid ""
+"Style particular content element differently - add a class name and refer "
+"to it in Custom CSS."
+msgstr ""
+
+#: vc_elements/cms_accordion.php:51 vc_elements/cms_accordion.php:60
+#: vc_elements/cms_contact_form.php:145 vc_elements/cms_contact_form.php:154
+#: vc_elements/cms_contact_form.php:164 vc_elements/cms_contact_form.php:172
+#: vc_elements/cms_contact_info.php:219 vc_elements/cms_contact_info.php:228
+#: vc_elements/cms_contact_info.php:238 vc_elements/cms_contact_info.php:246
+#: vc_elements/cms_counter.php:127 vc_elements/cms_counter.php:136
+#: vc_elements/cms_counter.php:146 vc_elements/cms_counter.php:154
+#: vc_elements/cms_heading.php:326 vc_elements/cms_heading.php:335
+#: vc_elements/cms_heading.php:345 vc_elements/cms_heading.php:353
+#: vc_elements/cms_portfolio_details.php:147
+#: vc_elements/cms_portfolio_details.php:156
+#: vc_elements/cms_portfolio_details.php:166
+#: vc_elements/cms_portfolio_details.php:174
+#: vc_elements/cms_team_member.php:166 vc_elements/cms_team_member.php:175
+#: vc_elements/cms_team_member.php:185 vc_elements/cms_team_member.php:193
+msgid "Extra"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:55 vc_elements/cms_banner.php:24
+#: vc_elements/cms_banner_carousel.php:28 vc_elements/cms_banner_tabs.php:28
+#: vc_elements/cms_blog_carousel.php:28 vc_elements/cms_blog_timeline.php:28
+#: vc_elements/cms_button.php:170 vc_elements/cms_call_to_action.php:26
+#: vc_elements/cms_career_grid.php:250 vc_elements/cms_client_carousel.php:28
+#: vc_elements/cms_contact_form.php:149 vc_elements/cms_contact_info.php:223
+#: vc_elements/cms_counter.php:131 vc_elements/cms_custom_menu.php:54
+#: vc_elements/cms_fancybox.php:72 vc_elements/cms_file_download.php:44
+#: vc_elements/cms_heading.php:330 vc_elements/cms_icon.php:94
+#: vc_elements/cms_image_gallery.php:238 vc_elements/cms_marker_map.php:84
+#: vc_elements/cms_newsletter.php:62
+#: vc_elements/cms_portfolio_carousel.php:29
+#: vc_elements/cms_portfolio_details.php:151
+#: vc_elements/cms_portfolio_slider.php:29
+#: vc_elements/cms_service_carousel.php:29
+#: vc_elements/cms_team_member.php:170
+#: vc_elements/cms_testimonial_carousel.php:60
+#: vc_elements/cms_timeline_carousel.php:28 vc_elements/cms_video.php:29
+msgid "Animation Style"
+msgstr ""
+
+#: vc_elements/cms_accordion.php:57 vc_elements/cms_banner.php:26
+#: vc_elements/cms_banner_carousel.php:30 vc_elements/cms_banner_tabs.php:30
+#: vc_elements/cms_blog_carousel.php:30 vc_elements/cms_blog_timeline.php:30
+#: vc_elements/cms_button.php:172 vc_elements/cms_call_to_action.php:28
+#: vc_elements/cms_career_grid.php:252 vc_elements/cms_client_carousel.php:30
+#: vc_elements/cms_contact_form.php:151 vc_elements/cms_contact_info.php:225
+#: vc_elements/cms_counter.php:133 vc_elements/cms_custom_menu.php:56
+#: vc_elements/cms_custom_vc_pagram.php:82 vc_elements/cms_fancybox.php:74
+#: vc_elements/cms_file_download.php:46 vc_elements/cms_heading.php:332
+#: vc_elements/cms_icon.php:96 vc_elements/cms_image_gallery.php:240
+#: vc_elements/cms_marker_map.php:86 vc_elements/cms_newsletter.php:64
+#: vc_elements/cms_portfolio_carousel.php:31
+#: vc_elements/cms_portfolio_details.php:153
+#: vc_elements/cms_portfolio_slider.php:31
+#: vc_elements/cms_service_carousel.php:31
+#: vc_elements/cms_team_member.php:172
+#: vc_elements/cms_testimonial_carousel.php:62
+#: vc_elements/cms_timeline_carousel.php:30 vc_elements/cms_video.php:31
+msgid "Choose your animation style"
+msgstr ""
+
+#: vc_elements/cms_angled.php:11
+msgid "Angled Style"
+msgstr ""
+
+#: vc_elements/cms_angled.php:19 vc_elements/cms_angled.php:31
+#: vc_elements/cms_angled.php:38 vc_elements/cms_angled.php:46
+msgid "Angled Settings"
+msgstr ""
+
+#: vc_elements/cms_angled.php:24
+msgid "Angled Position"
+msgstr ""
+
+#: vc_elements/cms_angled.php:35
+msgid "Angled Color"
+msgstr ""
+
+#: vc_elements/cms_angled.php:42
+msgid "Angled Height"
+msgstr ""
+
+#: vc_elements/cms_banner.php:11 vc_elements/cms_banner_carousel.php:78
+#: vc_elements/cms_banner_tabs.php:84 vc_elements/cms_client_carousel.php:67
+#: vc_elements/cms_fancybox.php:260 vc_elements/cms_fancybox.php:382
+#: vc_elements/cms_fancybox.php:386 vc_elements/cms_image_gallery.php:11
+#: vc_elements/cms_team_grid.php:34 vc_elements/cms_team_grid.php:89
+#: vc_elements/cms_team_member.php:102
+#: vc_elements/cms_testimonial_carousel.php:126
+#: vc_elements/cms_testimonial_carousel.php:201
+msgid "Image"
+msgstr ""
+
+#: vc_elements/cms_banner.php:14 vc_elements/cms_banner_carousel.php:81
+#: vc_elements/cms_banner_tabs.php:87 vc_elements/cms_client_carousel.php:70
+#: vc_elements/cms_team_grid.php:37 vc_elements/cms_team_grid.php:92
+#: vc_elements/cms_team_member.php:105
+#: vc_elements/cms_testimonial_carousel.php:129
+#: vc_elements/cms_testimonial_carousel.php:136
+#: vc_elements/cms_testimonial_carousel.php:204
+msgid "Select image from media library."
+msgstr ""
+
+#: vc_elements/cms_banner.php:32 vc_elements/cms_banner_carousel.php:37
+#: vc_elements/cms_banner_tabs.php:37 vc_elements/cms_blog_carousel.php:37
+#: vc_elements/cms_blog_grid.php:315 vc_elements/cms_blog_tab.php:26
+#: vc_elements/cms_blog_timeline.php:37 vc_elements/cms_button.php:179
+#: vc_elements/cms_call_to_action.php:35 vc_elements/cms_career.php:154
+#: vc_elements/cms_career_grid.php:266 vc_elements/cms_client_carousel.php:37
+#: vc_elements/cms_contact_form.php:158 vc_elements/cms_contact_info.php:232
+#: vc_elements/cms_counter.php:140 vc_elements/cms_fancybox.php:81
+#: vc_elements/cms_file_download.php:53 vc_elements/cms_heading.php:339
+#: vc_elements/cms_image_gallery.php:246 vc_elements/cms_marker_map.php:92
+#: vc_elements/cms_newsletter.php:70
+#: vc_elements/cms_portfolio_carousel.php:38
+#: vc_elements/cms_portfolio_categories.php:27
+#: vc_elements/cms_portfolio_details.php:160
+#: vc_elements/cms_portfolio_grid.php:404
+#: vc_elements/cms_portfolio_slider.php:38
+#: vc_elements/cms_portfolio_tab.php:69
+#: vc_elements/cms_service_carousel.php:38
+#: vc_elements/cms_service_grid.php:290 vc_elements/cms_team_grid.php:298
+#: vc_elements/cms_team_member.php:179
+#: vc_elements/cms_testimonial_carousel.php:69
+#: vc_elements/cms_timeline_carousel.php:37 vc_elements/cms_video.php:38
+msgid "Element Parallax"
+msgstr ""
+
+#: vc_elements/cms_banner.php:41 vc_elements/cms_banner_carousel.php:47
+#: vc_elements/cms_banner_tabs.php:47 vc_elements/cms_blog_carousel.php:47
+#: vc_elements/cms_blog_carousel.php:61 vc_elements/cms_blog_grid.php:325
+#: vc_elements/cms_blog_grid.php:339 vc_elements/cms_blog_tab.php:36
+#: vc_elements/cms_blog_timeline.php:47 vc_elements/cms_button.php:189
+#: vc_elements/cms_call_to_action.php:45 vc_elements/cms_career.php:167
+#: vc_elements/cms_career_grid.php:276 vc_elements/cms_client_carousel.php:47
+#: vc_elements/cms_contact_form.php:168 vc_elements/cms_contact_info.php:242
+#: vc_elements/cms_counter.php:150 vc_elements/cms_fancybox.php:91
+#: vc_elements/cms_file_download.php:63 vc_elements/cms_heading.php:349
+#: vc_elements/cms_image_gallery.php:255 vc_elements/cms_marker_map.php:101
+#: vc_elements/cms_newsletter.php:79
+#: vc_elements/cms_portfolio_carousel.php:48
+#: vc_elements/cms_portfolio_categories.php:37
+#: vc_elements/cms_portfolio_details.php:170
+#: vc_elements/cms_portfolio_grid.php:414
+#: vc_elements/cms_portfolio_slider.php:48
+#: vc_elements/cms_portfolio_tab.php:78
+#: vc_elements/cms_service_carousel.php:48
+#: vc_elements/cms_service_grid.php:300 vc_elements/cms_team_grid.php:308
+#: vc_elements/cms_team_member.php:189
+#: vc_elements/cms_testimonial_carousel.php:79
+#: vc_elements/cms_timeline_carousel.php:47 vc_elements/cms_video.php:48
+msgid "Parallax Speed"
+msgstr ""
+
+#: vc_elements/cms_banner.php:44 vc_elements/cms_banner_carousel.php:50
+#: vc_elements/cms_banner_tabs.php:50 vc_elements/cms_blog_carousel.php:50
+#: vc_elements/cms_blog_carousel.php:64 vc_elements/cms_blog_grid.php:328
+#: vc_elements/cms_blog_grid.php:342 vc_elements/cms_blog_tab.php:39
+#: vc_elements/cms_blog_timeline.php:50 vc_elements/cms_button.php:192
+#: vc_elements/cms_call_to_action.php:48 vc_elements/cms_career.php:170
+#: vc_elements/cms_career_grid.php:279 vc_elements/cms_client_carousel.php:50
+#: vc_elements/cms_contact_form.php:171 vc_elements/cms_contact_info.php:245
+#: vc_elements/cms_counter.php:153 vc_elements/cms_fancybox.php:94
+#: vc_elements/cms_file_download.php:66 vc_elements/cms_heading.php:352
+#: vc_elements/cms_image_gallery.php:258 vc_elements/cms_marker_map.php:104
+#: vc_elements/cms_newsletter.php:82
+#: vc_elements/cms_portfolio_carousel.php:51
+#: vc_elements/cms_portfolio_categories.php:40
+#: vc_elements/cms_portfolio_details.php:173
+#: vc_elements/cms_portfolio_grid.php:417
+#: vc_elements/cms_portfolio_slider.php:51
+#: vc_elements/cms_portfolio_tab.php:81
+#: vc_elements/cms_service_carousel.php:51
+#: vc_elements/cms_service_grid.php:303 vc_elements/cms_team_grid.php:311
+#: vc_elements/cms_team_member.php:192
+#: vc_elements/cms_testimonial_carousel.php:82
+#: vc_elements/cms_timeline_carousel.php:50 vc_elements/cms_video.php:51
+msgid ""
+"Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+msgstr ""
+
+#: vc_elements/cms_banner_carousel.php:61 vc_elements/cms_banner_tabs.php:61
+msgid "Banner Item"
+msgstr ""
+
+#: vc_elements/cms_banner_tabs.php:67
+msgid "Title Tab"
+msgstr ""
+
+#: vc_elements/cms_banner_tabs.php:73
+msgid "Title Item"
+msgstr ""
+
+#: vc_elements/cms_banner_tabs.php:91 vc_elements/cms_blog_carousel.php:151
+#: vc_elements/cms_blog_grid.php:109 vc_elements/cms_image_gallery.php:19
+#: vc_elements/cms_portfolio_carousel.php:138
+#: vc_elements/cms_portfolio_categories.php:84
+#: vc_elements/cms_portfolio_grid.php:159
+#: vc_elements/cms_service_grid.php:136 vc_elements/cms_team_grid.php:42
+#: vc_elements/cms_team_grid.php:97 vc_elements/cms_team_member.php:110
+msgid "Image size"
+msgstr ""
+
+#: vc_elements/cms_banner_tabs.php:94 vc_elements/cms_blog_carousel.php:154
+#: vc_elements/cms_team_grid.php:45 vc_elements/cms_team_grid.php:100
+#: vc_elements/cms_team_member.php:113
+msgid ""
+"Enter image size (Example: 'thumbnail', 'medium', 'large', 'full' or other "
+"sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height)."
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:75 vc_elements/cms_blog_grid.php:33
+#: vc_elements/cms_blog_timeline.php:61 vc_elements/cms_career_grid.php:49
+#: vc_elements/cms_portfolio_carousel.php:62
+#: vc_elements/cms_portfolio_grid.php:83
+#: vc_elements/cms_portfolio_slider.php:62
+#: vc_elements/cms_service_carousel.php:62
+#: vc_elements/cms_service_grid.php:38
+msgid "Custom Source"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:79 vc_elements/cms_blog_carousel.php:96
+#: vc_elements/cms_blog_carousel.php:114
+#: vc_elements/cms_blog_carousel.php:128
+#: vc_elements/cms_blog_carousel.php:139
+#: vc_elements/cms_blog_carousel.php:146
+#: vc_elements/cms_blog_carousel.php:155 vc_elements/cms_blog_grid.php:37
+#: vc_elements/cms_blog_grid.php:54 vc_elements/cms_blog_grid.php:72
+#: vc_elements/cms_blog_grid.php:86 vc_elements/cms_blog_grid.php:97
+#: vc_elements/cms_blog_grid.php:104 vc_elements/cms_blog_timeline.php:65
+#: vc_elements/cms_blog_timeline.php:82 vc_elements/cms_blog_timeline.php:100
+#: vc_elements/cms_blog_timeline.php:114
+#: vc_elements/cms_blog_timeline.php:125
+#: vc_elements/cms_blog_timeline.php:132 vc_elements/cms_career_grid.php:53
+#: vc_elements/cms_career_grid.php:70 vc_elements/cms_career_grid.php:88
+#: vc_elements/cms_career_grid.php:102 vc_elements/cms_career_grid.php:113
+#: vc_elements/cms_career_grid.php:120
+#: vc_elements/cms_portfolio_carousel.php:66
+#: vc_elements/cms_portfolio_carousel.php:83
+#: vc_elements/cms_portfolio_carousel.php:101
+#: vc_elements/cms_portfolio_carousel.php:115
+#: vc_elements/cms_portfolio_carousel.php:126
+#: vc_elements/cms_portfolio_carousel.php:133
+#: vc_elements/cms_portfolio_carousel.php:142
+#: vc_elements/cms_portfolio_categories.php:61
+#: vc_elements/cms_portfolio_categories.php:72
+#: vc_elements/cms_portfolio_categories.php:79
+#: vc_elements/cms_portfolio_grid.php:87
+#: vc_elements/cms_portfolio_grid.php:104
+#: vc_elements/cms_portfolio_grid.php:122
+#: vc_elements/cms_portfolio_grid.php:136
+#: vc_elements/cms_portfolio_grid.php:147
+#: vc_elements/cms_portfolio_grid.php:154
+#: vc_elements/cms_portfolio_slider.php:66
+#: vc_elements/cms_portfolio_slider.php:83
+#: vc_elements/cms_portfolio_slider.php:101
+#: vc_elements/cms_portfolio_slider.php:115
+#: vc_elements/cms_portfolio_slider.php:126
+#: vc_elements/cms_portfolio_slider.php:133
+#: vc_elements/cms_service_carousel.php:66
+#: vc_elements/cms_service_carousel.php:83
+#: vc_elements/cms_service_carousel.php:101
+#: vc_elements/cms_service_carousel.php:115
+#: vc_elements/cms_service_carousel.php:126
+#: vc_elements/cms_service_carousel.php:133
+#: vc_elements/cms_service_grid.php:42 vc_elements/cms_service_grid.php:59
+#: vc_elements/cms_service_grid.php:77 vc_elements/cms_service_grid.php:91
+#: vc_elements/cms_service_grid.php:102 vc_elements/cms_service_grid.php:109
+#: vc_elements/cms_service_grid.php:132 vc_elements/cms_team_grid.php:24
+#: vc_elements/cms_team_grid.php:38 vc_elements/cms_team_grid.php:46
+#: vc_elements/cms_team_grid.php:53 vc_elements/cms_team_grid.php:60
+#: vc_elements/cms_team_grid.php:67 vc_elements/cms_team_grid.php:79
+#: vc_elements/cms_team_grid.php:93 vc_elements/cms_team_grid.php:101
+#: vc_elements/cms_team_grid.php:108 vc_elements/cms_team_grid.php:115
+#: vc_elements/cms_team_grid.php:122 vc_elements/cms_team_grid.php:129
+#: vc_elements/cms_team_grid.php:138 vc_elements/cms_team_member.php:57
+#: vc_elements/cms_team_member.php:63 vc_elements/cms_team_member.php:78
+#: vc_elements/cms_team_member.php:91 vc_elements/cms_team_member.php:106
+#: vc_elements/cms_team_member.php:114 vc_elements/cms_team_member.php:128
+msgid "Source Settings"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:83 vc_elements/cms_blog_grid.php:41
+#: vc_elements/cms_blog_timeline.php:69 vc_elements/cms_career_grid.php:57
+#: vc_elements/cms_portfolio_carousel.php:70
+#: vc_elements/cms_portfolio_grid.php:91
+#: vc_elements/cms_portfolio_slider.php:70
+#: vc_elements/cms_service_carousel.php:70
+#: vc_elements/cms_service_grid.php:46
+msgid "Select Categories"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:85 vc_elements/cms_blog_grid.php:43
+#: vc_elements/cms_blog_timeline.php:71 vc_elements/cms_career_grid.php:59
+#: vc_elements/cms_portfolio_carousel.php:72
+#: vc_elements/cms_portfolio_grid.php:93
+#: vc_elements/cms_portfolio_slider.php:72
+#: vc_elements/cms_service_carousel.php:72
+#: vc_elements/cms_service_grid.php:48
+msgid "Leave blank to select all category"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:101 vc_elements/cms_blog_grid.php:59
+#: vc_elements/cms_blog_timeline.php:87 vc_elements/cms_career_grid.php:75
+#: vc_elements/cms_portfolio_carousel.php:88
+#: vc_elements/cms_portfolio_grid.php:109
+#: vc_elements/cms_portfolio_slider.php:88
+#: vc_elements/cms_service_carousel.php:88
+#: vc_elements/cms_service_grid.php:64
+msgid "Select Post Name"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:103 vc_elements/cms_blog_grid.php:61
+#: vc_elements/cms_blog_timeline.php:89 vc_elements/cms_career_grid.php:77
+#: vc_elements/cms_portfolio_carousel.php:90
+#: vc_elements/cms_portfolio_grid.php:111
+#: vc_elements/cms_portfolio_slider.php:90
+#: vc_elements/cms_service_carousel.php:90
+#: vc_elements/cms_service_grid.php:66
+msgid "Leave blank to show all post"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:118 vc_elements/cms_blog_grid.php:76
+#: vc_elements/cms_blog_timeline.php:104 vc_elements/cms_career.php:47
+#: vc_elements/cms_career_grid.php:92
+#: vc_elements/cms_portfolio_carousel.php:105
+#: vc_elements/cms_portfolio_categories.php:51
+#: vc_elements/cms_portfolio_grid.php:126
+#: vc_elements/cms_portfolio_slider.php:105
+#: vc_elements/cms_portfolio_tab.php:33
+#: vc_elements/cms_service_carousel.php:105
+#: vc_elements/cms_service_grid.php:81
+msgid "Order by"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:132 vc_elements/cms_blog_grid.php:90
+#: vc_elements/cms_blog_timeline.php:118 vc_elements/cms_career.php:64
+#: vc_elements/cms_career_grid.php:106
+#: vc_elements/cms_portfolio_carousel.php:119
+#: vc_elements/cms_portfolio_categories.php:65
+#: vc_elements/cms_portfolio_grid.php:140
+#: vc_elements/cms_portfolio_slider.php:119
+#: vc_elements/cms_portfolio_tab.php:46
+#: vc_elements/cms_service_carousel.php:119
+#: vc_elements/cms_service_grid.php:95
+msgid "Sort order"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:143 vc_elements/cms_blog_grid.php:101
+#: vc_elements/cms_blog_timeline.php:129 vc_elements/cms_career.php:78
+#: vc_elements/cms_career_grid.php:117
+#: vc_elements/cms_portfolio_carousel.php:130
+#: vc_elements/cms_portfolio_categories.php:76
+#: vc_elements/cms_portfolio_grid.php:151
+#: vc_elements/cms_portfolio_slider.php:130
+#: vc_elements/cms_portfolio_tab.php:56
+#: vc_elements/cms_service_carousel.php:130
+#: vc_elements/cms_service_grid.php:106
+msgid "Total items"
+msgstr ""
+
+#: vc_elements/cms_blog_carousel.php:147 vc_elements/cms_blog_grid.php:105
+#: vc_elements/cms_career.php:81 vc_elements/cms_career_grid.php:121
+#: vc_elements/cms_portfolio_carousel.php:134
+#: vc_elements/cms_portfolio_categories.php:80
+#: vc_elements/cms_portfolio_grid.php:155
+#: vc_elements/cms_portfolio_slider.php:134
+#: vc_elements/cms_portfolio_tab.php:59
+#: vc_elements/cms_service_carousel.php:134
+#: vc_elements/cms_service_grid.php:110
+msgid "Set max limit for items in grid. Enter number only"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:5
+msgid "CMS Blog Grid"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:21 vc_elements/cms_contact_info.php:19
+#: vc_elements/cms_custom_menu.php:63 vc_elements/cms_file_download.php:85
+#: vc_elements/cms_list.php:20 vc_elements/cms_portfolio_grid.php:60
+msgid "Element Title"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:25 vc_elements/cms_portfolio_grid.php:64
+msgid ""
+"Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:112
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" "
+"or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height). Enter multiple sizes (Example: "
+"100x100,200x200,300x300))."
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:113 vc_elements/cms_blog_grid.php:123
+#: vc_elements/cms_blog_grid.php:137 vc_elements/cms_blog_grid.php:152
+#: vc_elements/cms_blog_grid.php:202 vc_elements/cms_blog_grid.php:212
+#: vc_elements/cms_blog_grid.php:221 vc_elements/cms_blog_grid.php:230
+#: vc_elements/cms_blog_grid.php:239 vc_elements/cms_blog_grid.php:250
+#: vc_elements/cms_blog_grid.php:266 vc_elements/cms_blog_grid.php:276
+#: vc_elements/cms_blog_grid.php:286 vc_elements/cms_blog_grid.php:296
+#: vc_elements/cms_blog_grid.php:304 vc_elements/cms_blog_grid.php:311
+#: vc_elements/cms_blog_grid.php:321 vc_elements/cms_blog_grid.php:329
+#: vc_elements/cms_blog_grid.php:343 vc_elements/cms_career_grid.php:131
+#: vc_elements/cms_career_grid.php:145 vc_elements/cms_career_grid.php:159
+#: vc_elements/cms_career_grid.php:209 vc_elements/cms_career_grid.php:219
+#: vc_elements/cms_career_grid.php:228 vc_elements/cms_career_grid.php:237
+#: vc_elements/cms_career_grid.php:246 vc_elements/cms_image_gallery.php:189
+#: vc_elements/cms_image_gallery.php:199
+#: vc_elements/cms_image_gallery.php:209
+#: vc_elements/cms_image_gallery.php:219
+#: vc_elements/cms_portfolio_categories.php:88
+#: vc_elements/cms_portfolio_categories.php:95
+#: vc_elements/cms_portfolio_categories.php:105
+#: vc_elements/cms_portfolio_categories.php:114
+#: vc_elements/cms_portfolio_categories.php:123
+#: vc_elements/cms_portfolio_categories.php:132
+#: vc_elements/cms_portfolio_categories.php:143
+#: vc_elements/cms_portfolio_categories.php:152
+#: vc_elements/cms_portfolio_categories.php:167
+#: vc_elements/cms_portfolio_categories.php:182
+#: vc_elements/cms_portfolio_categories.php:197
+#: vc_elements/cms_portfolio_categories.php:214
+#: vc_elements/cms_portfolio_categories.php:230
+#: vc_elements/cms_portfolio_categories.php:240
+#: vc_elements/cms_portfolio_categories.php:250
+#: vc_elements/cms_portfolio_categories.php:260
+#: vc_elements/cms_portfolio_categories.php:268
+#: vc_elements/cms_portfolio_grid.php:163
+#: vc_elements/cms_portfolio_grid.php:173
+#: vc_elements/cms_portfolio_grid.php:187
+#: vc_elements/cms_portfolio_grid.php:202
+#: vc_elements/cms_portfolio_grid.php:212
+#: vc_elements/cms_portfolio_grid.php:277
+#: vc_elements/cms_portfolio_grid.php:285
+#: vc_elements/cms_portfolio_grid.php:301
+#: vc_elements/cms_portfolio_grid.php:310
+#: vc_elements/cms_portfolio_grid.php:319
+#: vc_elements/cms_portfolio_grid.php:328
+#: vc_elements/cms_portfolio_grid.php:339
+#: vc_elements/cms_portfolio_grid.php:355
+#: vc_elements/cms_portfolio_grid.php:365
+#: vc_elements/cms_portfolio_grid.php:375
+#: vc_elements/cms_portfolio_grid.php:385
+#: vc_elements/cms_portfolio_grid.php:393
+#: vc_elements/cms_portfolio_grid.php:400
+#: vc_elements/cms_portfolio_grid.php:410
+#: vc_elements/cms_portfolio_grid.php:418
+#: vc_elements/cms_service_grid.php:140 vc_elements/cms_service_grid.php:150
+#: vc_elements/cms_service_grid.php:164 vc_elements/cms_service_grid.php:178
+#: vc_elements/cms_service_grid.php:228 vc_elements/cms_service_grid.php:236
+#: vc_elements/cms_service_grid.php:252 vc_elements/cms_service_grid.php:261
+#: vc_elements/cms_service_grid.php:270 vc_elements/cms_service_grid.php:279
+#: vc_elements/cms_service_grid.php:286 vc_elements/cms_service_grid.php:296
+#: vc_elements/cms_service_grid.php:304 vc_elements/cms_team_grid.php:172
+#: vc_elements/cms_team_grid.php:186 vc_elements/cms_team_grid.php:200
+#: vc_elements/cms_team_grid.php:250 vc_elements/cms_team_grid.php:260
+#: vc_elements/cms_team_grid.php:269 vc_elements/cms_team_grid.php:278
+#: vc_elements/cms_team_grid.php:287 vc_elements/cms_team_grid.php:294
+#: vc_elements/cms_team_grid.php:304 vc_elements/cms_team_grid.php:312
+msgid "Grid Settings"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:117 vc_elements/cms_career_grid.php:125
+#: vc_elements/cms_image_gallery.php:27
+#: vc_elements/cms_portfolio_grid.php:167
+#: vc_elements/cms_service_grid.php:144 vc_elements/cms_team_grid.php:166
+msgid "Layout Type"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:127 vc_elements/cms_career.php:92
+#: vc_elements/cms_career_grid.php:135 vc_elements/cms_portfolio_grid.php:177
+#: vc_elements/cms_service_grid.php:154 vc_elements/cms_team_grid.php:176
+msgid "Filter on Masonry"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:141 vc_elements/cms_portfolio_grid.php:191
+msgid "Pagination Type"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:156 vc_elements/cms_career.php:106
+#: vc_elements/cms_career_grid.php:163 vc_elements/cms_portfolio_grid.php:220
+#: vc_elements/cms_service_grid.php:182 vc_elements/cms_team_grid.php:204
+msgid "Default Title"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:159 vc_elements/cms_blog_grid.php:174
+#: vc_elements/cms_blog_grid.php:190 vc_elements/cms_career.php:98
+#: vc_elements/cms_career.php:114 vc_elements/cms_career.php:124
+#: vc_elements/cms_career.php:144 vc_elements/cms_career_grid.php:166
+#: vc_elements/cms_career_grid.php:181 vc_elements/cms_career_grid.php:197
+#: vc_elements/cms_portfolio_grid.php:223
+#: vc_elements/cms_portfolio_grid.php:235
+#: vc_elements/cms_portfolio_grid.php:249
+#: vc_elements/cms_portfolio_grid.php:265
+#: vc_elements/cms_service_grid.php:185 vc_elements/cms_service_grid.php:200
+#: vc_elements/cms_service_grid.php:216 vc_elements/cms_team_grid.php:207
+#: vc_elements/cms_team_grid.php:222 vc_elements/cms_team_grid.php:238
+msgid "Filter"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:160 vc_elements/cms_career.php:109
+#: vc_elements/cms_career_grid.php:167 vc_elements/cms_portfolio_grid.php:224
+#: vc_elements/cms_service_grid.php:186 vc_elements/cms_team_grid.php:208
+msgid "Enter default title for filter option display, empty: All"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:168 vc_elements/cms_career.php:118
+#: vc_elements/cms_career_grid.php:175 vc_elements/cms_portfolio_grid.php:243
+#: vc_elements/cms_service_grid.php:194 vc_elements/cms_team_grid.php:216
+msgid "Title Color Active"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:182 vc_elements/cms_career.php:132
+#: vc_elements/cms_career_grid.php:189 vc_elements/cms_portfolio_grid.php:257
+#: vc_elements/cms_service_grid.php:208 vc_elements/cms_team_grid.php:230
+msgid "Alignment"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:189 vc_elements/cms_career.php:139
+#: vc_elements/cms_career_grid.php:196 vc_elements/cms_portfolio_grid.php:264
+#: vc_elements/cms_service_grid.php:215 vc_elements/cms_team_grid.php:237
+msgid "Select filter alignment."
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:199 vc_elements/cms_career_grid.php:206
+#: vc_elements/cms_portfolio_categories.php:92
+#: vc_elements/cms_portfolio_grid.php:274
+#: vc_elements/cms_service_grid.php:225 vc_elements/cms_team_grid.php:247
+msgid "Item Gap"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:203 vc_elements/cms_career_grid.php:210
+#: vc_elements/cms_portfolio_categories.php:96
+#: vc_elements/cms_portfolio_grid.php:278
+#: vc_elements/cms_service_grid.php:229 vc_elements/cms_team_grid.php:251
+msgid "Select gap between grid elements. Enter number only"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:207 vc_elements/cms_blog_grid.php:261
+#: vc_elements/cms_career_grid.php:214 vc_elements/cms_image_gallery.php:104
+#: vc_elements/cms_image_gallery.php:184
+#: vc_elements/cms_portfolio_categories.php:100
+#: vc_elements/cms_portfolio_categories.php:147
+#: vc_elements/cms_portfolio_categories.php:225
+#: vc_elements/cms_portfolio_grid.php:296
+#: vc_elements/cms_portfolio_grid.php:350
+#: vc_elements/cms_service_grid.php:247 vc_elements/cms_team_grid.php:255
+msgid "Columns XS Devices"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:216 vc_elements/cms_blog_grid.php:271
+#: vc_elements/cms_career_grid.php:223 vc_elements/cms_image_gallery.php:118
+#: vc_elements/cms_image_gallery.php:194
+#: vc_elements/cms_portfolio_categories.php:109
+#: vc_elements/cms_portfolio_categories.php:162
+#: vc_elements/cms_portfolio_categories.php:235
+#: vc_elements/cms_portfolio_grid.php:305
+#: vc_elements/cms_portfolio_grid.php:360
+#: vc_elements/cms_service_grid.php:256 vc_elements/cms_team_grid.php:264
+msgid "Columns SM Devices"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:225 vc_elements/cms_blog_grid.php:281
+#: vc_elements/cms_career_grid.php:232 vc_elements/cms_image_gallery.php:132
+#: vc_elements/cms_image_gallery.php:204
+#: vc_elements/cms_portfolio_categories.php:118
+#: vc_elements/cms_portfolio_categories.php:177
+#: vc_elements/cms_portfolio_categories.php:245
+#: vc_elements/cms_portfolio_grid.php:314
+#: vc_elements/cms_portfolio_grid.php:370
+#: vc_elements/cms_service_grid.php:265 vc_elements/cms_team_grid.php:273
+msgid "Columns MD Devices"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:234 vc_elements/cms_blog_grid.php:291
+#: vc_elements/cms_career_grid.php:241 vc_elements/cms_image_gallery.php:146
+#: vc_elements/cms_image_gallery.php:214
+#: vc_elements/cms_portfolio_categories.php:127
+#: vc_elements/cms_portfolio_categories.php:192
+#: vc_elements/cms_portfolio_categories.php:255
+#: vc_elements/cms_portfolio_grid.php:323
+#: vc_elements/cms_portfolio_grid.php:380
+#: vc_elements/cms_service_grid.php:274 vc_elements/cms_team_grid.php:282
+msgid "Columns LG Devices"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:243 vc_elements/cms_image_gallery.php:161
+#: vc_elements/cms_portfolio_categories.php:207
+#: vc_elements/cms_portfolio_grid.php:332
+msgid "Custom Column Item"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:254 vc_elements/cms_image_gallery.php:177
+#: vc_elements/cms_portfolio_categories.php:218
+#: vc_elements/cms_portfolio_grid.php:343
+msgid "List Item"
+msgstr ""
+
+#: vc_elements/cms_blog_grid.php:256 vc_elements/cms_image_gallery.php:179
+#: vc_elements/cms_portfolio_categories.php:220
+#: vc_elements/cms_portfolio_grid.php:345
+msgid "Column for each item"
+msgstr ""
+
+#: vc_elements/cms_blog_tab.php:3
+msgid "CMS Blog Tab"
+msgstr ""
+
+#: vc_elements/cms_blog_timeline.php:133
+msgid "Enter number only"
+msgstr ""
+
+#: vc_elements/cms_button.php:10 vc_elements/cms_heading.php:20
+msgid "Text"
+msgstr ""
+
+#: vc_elements/cms_button.php:14 vc_elements/cms_button.php:22
+#: vc_elements/cms_button.php:34 vc_elements/cms_button.php:44
+#: vc_elements/cms_button.php:56 vc_elements/cms_button.php:68
+#: vc_elements/cms_button.php:80 vc_elements/cms_button.php:92
+#: vc_elements/cms_button.php:101 vc_elements/cms_button.php:109
+#: vc_elements/cms_button.php:117 vc_elements/cms_button.php:125
+#: vc_elements/cms_button.php:135 vc_elements/cms_button.php:143
+#: vc_elements/cms_button.php:151 vc_elements/cms_button.php:159
+#: vc_elements/cms_button.php:166 vc_elements/cms_button.php:175
+#: vc_elements/cms_button.php:185 vc_elements/cms_button.php:193
+msgid "Button Settings"
+msgstr ""
+
+#: vc_elements/cms_button.php:26
+msgid "Button Style"
+msgstr ""
+
+#: vc_elements/cms_button.php:48
+msgid "Align Large"
+msgstr ""
+
+#: vc_elements/cms_button.php:60
+msgid "Align Medium"
+msgstr ""
+
+#: vc_elements/cms_button.php:72
+msgid "Align Small"
+msgstr ""
+
+#: vc_elements/cms_button.php:84
+msgid "Align Mini"
+msgstr ""
+
+#: vc_elements/cms_button.php:97
+msgid "Padding Top"
+msgstr ""
+
+#: vc_elements/cms_button.php:105
+msgid "Padding Right"
+msgstr ""
+
+#: vc_elements/cms_button.php:113
+msgid "Padding Bottom"
+msgstr ""
+
+#: vc_elements/cms_button.php:121
+msgid "Padding Left"
+msgstr ""
+
+#: vc_elements/cms_button.php:131
+msgid "Border Radius Top"
+msgstr ""
+
+#: vc_elements/cms_button.php:139
+msgid "Border Radius Right"
+msgstr ""
+
+#: vc_elements/cms_button.php:147
+msgid "Border Radius Bottom"
+msgstr ""
+
+#: vc_elements/cms_button.php:155
+msgid "Border Radius Left"
+msgstr ""
+
+#: vc_elements/cms_call_to_action.php:72
+msgid "Call Us"
+msgstr ""
+
+#: vc_elements/cms_career.php:5
+msgid "CMS Careers"
+msgstr ""
+
+#: vc_elements/cms_career.php:21 vc_elements/cms_portfolio_tab.php:21
+msgid "Title Tab Nav"
+msgstr ""
+
+#: vc_elements/cms_career.php:32 vc_elements/cms_custom_menu.php:31
+#: vc_elements/cms_custom_vc_pagram.php:105
+#: vc_elements/cms_custom_vc_pagram.php:127
+#: vc_elements/cms_custom_vc_pagram.php:147
+#: vc_elements/cms_custom_vc_pagram.php:161
+#: vc_elements/cms_custom_vc_pagram.php:167
+#: vc_elements/cms_custom_vc_pagram.php:181
+#: vc_elements/cms_file_download.php:22 vc_elements/cms_googlemap.php:19
+#: vc_elements/cms_image_gallery.php:69
+#: vc_elements/cms_portfolio_details.php:21
+#: vc_elements/cms_service_grid.php:21
+#: vc_elements/cms_testimonial_carousel.php:21
+msgid "Styles"
+msgstr ""
+
+#: vc_elements/cms_career.php:88
+msgid ""
+"Enter active section number (Note: to have all sections closed on initial "
+"load enter non-existing number)."
+msgstr ""
+
+#: vc_elements/cms_career_grid.php:19
+msgid "CMS Career Grid"
+msgstr ""
+
+#: vc_elements/cms_career_grid.php:35
+msgid "Apply for Title Form"
+msgstr ""
+
+#: vc_elements/cms_career_grid.php:149 vc_elements/cms_service_grid.php:168
+#: vc_elements/cms_team_grid.php:190
+msgid "Load More on Masonry"
+msgstr ""
+
+#: vc_elements/cms_client_carousel.php:61
+msgid "Client Item"
+msgstr ""
+
+#: vc_elements/cms_contact_form.php:43
+msgid "Select contact form"
+msgstr ""
+
+#: vc_elements/cms_contact_form.php:47
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: vc_elements/cms_contact_form.php:52 vc_elements/cms_contact_form.php:69
+msgid "Style Color"
+msgstr ""
+
+#: vc_elements/cms_contact_form.php:85
+msgid "Content Box Shadow"
+msgstr ""
+
+#: vc_elements/cms_contact_form.php:101
+msgid "Content Box Style"
+msgstr ""
+
+#: vc_elements/cms_contact_form.php:117
+msgid "Box Title"
+msgstr ""
+
+#: vc_elements/cms_contact_form.php:129
+msgid "Box Description"
+msgstr ""
+
+#: vc_elements/cms_contact_info.php:48
+msgid "Content Box"
+msgstr ""
+
+#: vc_elements/cms_contact_info.php:64 vc_elements/cms_contact_info.php:104
+#: vc_elements/cms_contact_info.php:138
+msgid "Contact List"
+msgstr ""
+
+#: vc_elements/cms_contact_info.php:190
+#: vc_elements/cms_testimonial_carousel.php:272
+msgid "Content Color"
+msgstr ""
+
+#: vc_elements/cms_contact_info.php:202 vc_elements/cms_fancybox.php:52
+#: vc_elements/cms_list.php:83 vc_elements/cms_portfolio_details.php:105
+msgid "Box Background Color"
+msgstr ""
+
+#: vc_elements/cms_counter.php:22 vc_elements/cms_fancybox.php:34
+#: vc_elements/cms_icon.php:11 vc_elements/cms_list.php:95
+msgid "Style"
+msgstr ""
+
+#: vc_elements/cms_counter.php:39
+msgid "Icon Image"
+msgstr ""
+
+#: vc_elements/cms_counter.php:42 vc_elements/cms_fancybox.php:263
+#: vc_elements/cms_fancybox.php:385 vc_elements/cms_image_gallery.php:14
+#: vc_elements/cms_marker_map.php:26
+msgid "Select icon image from media library."
+msgstr ""
+
+#: vc_elements/cms_counter.php:71 vc_elements/cms_counter.php:74
+#: vc_elements/cms_counter.php:81 vc_elements/cms_counter.php:88
+#: vc_elements/cms_counter.php:95 vc_elements/cms_counter.php:106
+#: vc_elements/cms_counter.php:112
+msgid "Digit"
+msgstr ""
+
+#: vc_elements/cms_counter.php:78
+msgid "Prefix"
+msgstr ""
+
+#: vc_elements/cms_counter.php:85
+msgid "Suffix"
+msgstr ""
+
+#: vc_elements/cms_counter.php:100
+msgid "Use Grouping"
+msgstr ""
+
+#: vc_elements/cms_counter.php:110
+msgid "Separator"
+msgstr ""
+
+#: vc_elements/cms_custom_menu.php:74
+msgid "Menu"
+msgstr ""
+
+#: vc_elements/cms_custom_vc_pagram.php:8
+#: vc_elements/cms_custom_vc_pagram.php:34
+#: vc_elements/cms_custom_vc_pagram.php:64
+msgid "CMS Custom Style"
+msgstr ""
+
+#: vc_elements/cms_custom_vc_pagram.php:17
+#: vc_elements/cms_custom_vc_pagram.php:45
+#: vc_elements/cms_custom_vc_pagram.php:58
+#: vc_elements/cms_custom_vc_pagram.php:74
+#: vc_elements/cms_custom_vc_pagram.php:85
+msgid "CMS Customs"
+msgstr ""
+
+#: vc_elements/cms_custom_vc_pagram.php:23
+msgid "Content Border Box"
+msgstr ""
+
+#: vc_elements/cms_custom_vc_pagram.php:51
+msgid "CMS Column Offset"
+msgstr ""
+
+#: vc_elements/cms_custom_vc_pagram.php:80
+msgid "Animation"
+msgstr ""
+
+#: vc_elements/cms_custom_vc_pagram.php:173
+msgid "Image alignment small (Screen < 767px)"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:11
+msgid "Divider Position"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:23
+msgid "Divider Color"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:42
+#: vc_elements/cms_testimonial_carousel.php:232
+#: vc_elements/cms_testimonial_carousel.php:245
+msgid "Enter: ..px"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:47
+msgid "Title Link"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:53 vc_elements/cms_fancybox.php:274
+#: vc_elements/cms_icon.php:22
+msgid "Icon Library"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:55 vc_elements/cms_fancybox.php:276
+#: vc_elements/cms_icon.php:24
+msgid "Font Awesome"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:56 vc_elements/cms_fancybox.php:277
+#: vc_elements/cms_icon.php:25
+msgid "Material Design"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:59 vc_elements/cms_fancybox.php:280
+#: vc_elements/cms_icon.php:28
+msgid "Select icon library."
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:63 vc_elements/cms_fancybox.php:289
+#: vc_elements/cms_icon.php:33
+msgid "Icon Material"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:74 vc_elements/cms_divider_title.php:90
+#: vc_elements/cms_fancybox.php:300 vc_elements/cms_fancybox.php:317
+#: vc_elements/cms_icon.php:44 vc_elements/cms_icon.php:61
+#: vc_elements/cms_team_grid.php:150 vc_elements/cms_team_member.php:149
+msgid "Select icon from library."
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:78 vc_elements/cms_fancybox.php:305
+#: vc_elements/cms_icon.php:49
+msgid "Icon FontAwesome"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:95
+msgid "Icon Position"
+msgstr ""
+
+#: vc_elements/cms_divider_title.php:106
+msgid "Content Full Width"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:21
+msgid "Space content on the left"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:135
+msgid "Title Number"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:218 vc_elements/cms_fancybox.php:230
+msgid "Button"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:242
+msgid "Icon Type"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:323
+msgid "Icon Align Vertical"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:339
+msgid "Icon Color"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:352
+msgid "Icon Font Size"
+msgstr ""
+
+#: vc_elements/cms_fancybox.php:365
+msgid "Icon Styles"
+msgstr ""
+
+#: vc_elements/cms_file_download.php:78
+msgid "Select File"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:37
+msgid "API Key"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:40
+msgid ""
+"Enter you api key of map, get key from (https://console.developers.google."
+"com)"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:47
+msgid "Enter address of Map"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:51
+msgid "Coordinate"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:54
+msgid "Enter coordinate of Map, format input (latitude, longitude)"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:58
+msgid "Click Show Info window"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:61 vc_elements/cms_googlemap.php:168
+#: vc_elements/cms_googlemap.php:177 vc_elements/cms_googlemap.php:186
+#: vc_elements/cms_googlemap.php:195 vc_elements/cms_googlemap.php:204
+#: vc_elements/cms_googlemap.php:213 vc_elements/cms_googlemap.php:222
+msgid "Yes, please"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:63
+msgid "Click a marker and show info window (Default Show)."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:67
+msgid "Marker Coordinate"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:70
+msgid "Enter marker coordinate of Map, format input (latitude, longitude)"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:74 vc_elements/cms_marker_map.php:30
+msgid "Marker Title"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:77
+msgid "Enter Title Info windows for marker"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:81 vc_elements/cms_marker_map.php:36
+msgid "Marker Description"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:84
+msgid "Enter Description Info windows for marker"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:88 vc_elements/cms_marker_map.php:60
+msgid "Marker Icon"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:91
+msgid "Select image icon for marker"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:95 vc_elements/cms_marker_map.php:16
+msgid "Marker List"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:98
+msgid ""
+"[{\"coordinate\":\"41.058846,-73.539423\",\"icon\":\"\",\"title\":\"title "
+"demo 1\",\"desc\":\"desc demo 1\"},{\"coordinate\":"
+"\"40.975699,-73.717636\",\"icon\":\"\",\"title\":\"title demo 2\",\"desc\":"
+"\"desc demo 2\"},{\"coordinate\":\"41.082606,-73.469718\",\"icon\":\"\","
+"\"title\":\"title demo 3\",\"desc\":\"desc demo 3\"}]"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:102
+msgid "Info Window Max Width"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:105
+msgid "Set max width for info window"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:109
+msgid "Map Type"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:117
+msgid "Select the map type."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:121
+msgid "Style Template"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:137
+msgid "Custom Template"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:140
+msgid "Get template from http://snazzymaps.com"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:144
+msgid "Zoom"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:147
+msgid "zoom level of map, default is 13"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:151
+msgid "Width"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:154
+msgid "Width of map without pixel, default is auto"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:158
+msgid "Height"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:161
+msgid "Height of map without pixel, default is 350px"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:165
+msgid "Scroll Wheel"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:170
+msgid ""
+"If false, disables scrollwheel zooming on the map. The scrollwheel is "
+"disable by default."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:174
+msgid "Pan Control"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:179
+msgid "Show or hide Pan control."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:183
+msgid "Zoom Control"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:188
+msgid "Show or hide Zoom Control."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:192
+msgid "Scale Control"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:197
+msgid "Show or hide Scale Control."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:201
+msgid "Map Type Control"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:206
+msgid "Show or hide Map Type Control."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:210
+msgid "Street View Control"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:215
+msgid "Show or hide Street View Control."
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:219
+msgid "Over View Map Control"
+msgstr ""
+
+#: vc_elements/cms_googlemap.php:224
+msgid "Show or hide Over View Map Control."
+msgstr ""
+
+#: vc_elements/cms_heading.php:10
+msgid "Text Source"
+msgstr ""
+
+#: vc_elements/cms_heading.php:33
+msgid "Element tag"
+msgstr ""
+
+#: vc_elements/cms_heading.php:49
+msgid "Text align large"
+msgstr ""
+
+#: vc_elements/cms_heading.php:60
+msgid "Text align medium"
+msgstr ""
+
+#: vc_elements/cms_heading.php:71
+msgid "Text align small"
+msgstr ""
+
+#: vc_elements/cms_heading.php:82
+msgid "Text align mini"
+msgstr ""
+
+#: vc_elements/cms_heading.php:93
+msgid "Margin top"
+msgstr ""
+
+#: vc_elements/cms_heading.php:100
+msgid "Margin right"
+msgstr ""
+
+#: vc_elements/cms_heading.php:107
+msgid "Margin bottom"
+msgstr ""
+
+#: vc_elements/cms_heading.php:114
+msgid "Margin left"
+msgstr ""
+
+#: vc_elements/cms_heading.php:122
+msgid "Font size large"
+msgstr ""
+
+#: vc_elements/cms_heading.php:130
+msgid "Font size medium"
+msgstr ""
+
+#: vc_elements/cms_heading.php:138
+msgid "Font size small"
+msgstr ""
+
+#: vc_elements/cms_heading.php:146
+msgid "Font size mini"
+msgstr ""
+
+#: vc_elements/cms_heading.php:155
+msgid "Line height large"
+msgstr ""
+
+#: vc_elements/cms_heading.php:163
+msgid "Line height medium"
+msgstr ""
+
+#: vc_elements/cms_heading.php:171
+msgid "Line height small"
+msgstr ""
+
+#: vc_elements/cms_heading.php:179
+msgid "Line height mini"
+msgstr ""
+
+#: vc_elements/cms_heading.php:187
+msgid "Font Weight"
+msgstr ""
+
+#: vc_elements/cms_heading.php:212
+msgid "Letter Spacing"
+msgstr ""
+
+#: vc_elements/cms_heading.php:226
+msgid "Custom Local Fonts"
+msgstr ""
+
+#: vc_elements/cms_heading.php:235
+msgid "Local Fonts"
+msgstr ""
+
+#: vc_elements/cms_heading.php:250
+msgid "Calibre-Regular"
+msgstr ""
+
+#: vc_elements/cms_heading.php:251
+msgid "Calibre-Medium"
+msgstr ""
+
+#: vc_elements/cms_heading.php:252
+msgid "Calibre-Semibold"
+msgstr ""
+
+#: vc_elements/cms_heading.php:264
+msgid "Custom Google Fonts"
+msgstr ""
+
+#: vc_elements/cms_heading.php:277
+msgid "Select font family."
+msgstr ""
+
+#: vc_elements/cms_heading.php:278
+msgid "Select font styling."
+msgstr ""
+
+#: vc_elements/cms_icon.php:66
+msgid "Icon Box Color"
+msgstr ""
+
+#: vc_elements/cms_icon.php:80
+msgid "Icon Link"
+msgstr ""
+
+#: vc_elements/cms_image_gallery.php:22
+#: vc_elements/cms_portfolio_carousel.php:141
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" "
+"or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height)."
+msgstr ""
+
+#: vc_elements/cms_image_gallery.php:37
+msgid "Show Thumbnail"
+msgstr ""
+
+#: vc_elements/cms_image_gallery.php:53
+msgid "Auto Play"
+msgstr ""
+
+#: vc_elements/cms_image_gallery.php:85
+msgid "Layout Styles"
+msgstr ""
+
+#: vc_elements/cms_list.php:47
+msgid "Lists"
+msgstr ""
+
+#: vc_elements/cms_list.php:49 vc_elements/cms_portfolio_details.php:75
+#: vc_elements/cms_service_grid.php:116
+msgid "Enter values for list item"
+msgstr ""
+
+#: vc_elements/cms_list.php:54 vc_elements/cms_portfolio_details.php:80
+#: vc_elements/cms_service_grid.php:121
+msgid "List item"
+msgstr ""
+
+#: vc_elements/cms_list.php:77
+msgid "List item Color"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:10
+msgid "Google Map API Key"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:18
+msgid "Enter list marker"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:23
+msgid "Marker Flag"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:42
+msgid "Marker Button Text"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:47
+msgid "Marker Button Link"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:52
+msgid "Lat/lng"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:66
+msgid "Map Height"
+msgstr ""
+
+#: vc_elements/cms_marker_map.php:72
+msgid "Map Title"
+msgstr ""
+
+#: vc_elements/cms_newsletter.php:14
+msgid "Default Form"
+msgstr ""
+
+#: vc_elements/cms_newsletter.php:22
+#, php-format
+msgid "Form %s"
+msgstr ""
+
+#: vc_elements/cms_newsletter.php:31 vc_elements/cms_newsletter.php:36
+msgid "Newsletter Form"
+msgstr ""
+
+#: vc_elements/cms_newsletter.php:37
+msgid "Pick default or custom forms from Newsletter Plugin."
+msgstr ""
+
+#: vc_elements/cms_newsletter.php:44
+msgid "Introduction"
+msgstr ""
+
+#: vc_elements/cms_newsletter.php:50
+msgid "Introduction Color"
+msgstr ""
+
+#: vc_elements/cms_overlay.php:32
+msgid "Color 1"
+msgstr ""
+
+#: vc_elements/cms_overlay.php:45
+msgid "Color 2"
+msgstr ""
+
+#: vc_elements/cms_overlay.php:58
+msgid "Max Height"
+msgstr ""
+
+#: vc_elements/cms_portfolio_categories.php:4
+msgid "CMS Portfolio Categories"
+msgstr ""
+
+#: vc_elements/cms_portfolio_categories.php:87
+#: vc_elements/cms_portfolio_grid.php:162
+#: vc_elements/cms_service_grid.php:139
+msgid ""
+"Enter image size (Example: 'thumbnail', 'medium', 'large', 'full' or other "
+"sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height). Enter multiple sizes (Example: "
+"100x100,200x200,300x300))."
+msgstr ""
+
+#: vc_elements/cms_portfolio_categories.php:136
+msgid "Custom Grid Sizer"
+msgstr ""
+
+#: vc_elements/cms_portfolio_details.php:44
+#: vc_elements/cms_portfolio_details.php:73
+msgid "Items"
+msgstr ""
+
+#: vc_elements/cms_portfolio_details.php:50
+msgid "Label"
+msgstr ""
+
+#: vc_elements/cms_portfolio_details.php:118
+msgid "Testimonial"
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:5
+msgid "CMS Portfolio Grid"
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:21
+msgid "Hover Style"
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:35
+msgid "Overlay Hover Color"
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:48
+msgid "Element Height"
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:52
+msgid "Enter number."
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:206
+msgid "Filter Type"
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:282
+#: vc_elements/cms_service_grid.php:233
+msgid "Item Order 2 Gap Top"
+msgstr ""
+
+#: vc_elements/cms_portfolio_grid.php:286
+#: vc_elements/cms_service_grid.php:237
+msgid "Enter number only."
+msgstr ""
+
+#: vc_elements/cms_portfolio_tab.php:5
+msgid "CMS Portfolio Tab"
+msgstr ""
+
+#: vc_elements/cms_portfolio_tab.php:27
+msgid "Title Tab Content"
+msgstr ""
+
+#: vc_elements/cms_service_grid.php:5
+msgid "CMS Service Grid"
+msgstr ""
+
+#: vc_elements/cms_service_grid.php:114
+msgid "Lists content for first item"
+msgstr ""
+
+#: vc_elements/cms_service_grid.php:318 vc_elements/cms_service_grid.php:332
+#: vc_elements/cms_service_grid.php:345 vc_elements/cms_service_grid.php:358
+msgid "Fancy Box"
+msgstr ""
+
+#: vc_elements/cms_service_grid.php:319
+msgid "Will be displayed last in the Grid"
+msgstr ""
+
+#: vc_elements/cms_space.php:11
+msgid "Space LG Devices"
+msgstr ""
+
+#: vc_elements/cms_space.php:17
+msgid "Space MD Devices"
+msgstr ""
+
+#: vc_elements/cms_space.php:23
+msgid "Space SM Devices"
+msgstr ""
+
+#: vc_elements/cms_space.php:29
+msgid "Space XS Devices"
+msgstr ""
+
+#: vc_elements/cms_team_grid.php:4
+msgid "CMS Team Grid"
+msgstr ""
+
+#: vc_elements/cms_team_grid.php:22 vc_elements/cms_team_grid.php:77
+#: vc_elements/cms_team_grid.php:136 vc_elements/cms_team_member.php:126
+msgid "Enter values for team item"
+msgstr ""
+
+#: vc_elements/cms_team_grid.php:112 vc_elements/cms_team_member.php:61
+#: vc_elements/cms_testimonial_carousel.php:115
+#: vc_elements/cms_testimonial_carousel.php:190
+msgid "Position"
+msgstr ""
+
+#: vc_elements/cms_team_member.php:4
+msgid "CMS Team Member"
+msgstr ""
+
+#: vc_elements/cms_team_member.php:20
+msgid "Box Shadow Style"
+msgstr ""
+
+#: vc_elements/cms_team_member.php:36
+msgid "Image Size"
+msgstr ""
+
+#: vc_elements/cms_team_member.php:76
+msgid "Joined Date"
+msgstr ""
+
+#: vc_elements/cms_testimonial_carousel.php:37
+msgid "Arrows Style"
+msgstr ""
+
+#: vc_elements/cms_testimonial_carousel.php:43
+msgid "Carousel Settings"
+msgstr ""
+
+#: vc_elements/cms_testimonial_carousel.php:93
+#: vc_elements/cms_testimonial_carousel.php:144
+#: vc_elements/cms_testimonial_carousel.php:171
+msgid "Testimonial Item"
+msgstr ""
+
+#: vc_elements/cms_testimonial_carousel.php:133
+msgid "Signature Image"
+msgstr ""
+
+#: vc_elements/cms_testimonial_carousel.php:208
+msgid "Rating"
+msgstr ""
+
+#: vc_elements/cms_testimonial_carousel.php:237
+msgid "Title Line Height"
+msgstr ""
+
+#: vc_elements/cms_testimonial_carousel.php:256
+msgid "Position Color"
+msgstr ""
+
+#: vc_elements/cms_timeline_carousel.php:61
+msgid "Timeline Item"
+msgstr ""
+
+#: vc_elements/cms_timeline_carousel.php:67
+msgid "Year"
+msgstr ""
+
+#: vc_elements/cms_video.php:63
+msgid "Video Url"
+msgstr ""
+
+#: vc_elements/cms_video.php:71
+msgid "Box Video Background Image"
+msgstr ""
+
+#: vc_elements/cms_video.php:77
+msgid "Box Video Height"
+msgstr ""
+
+#: vc_templates/cms_blog_carousel--layout2.php:57
+msgid "Posted"
+msgstr ""
+
+#: vc_templates/cms_blog_grid--layout2.php:159
+#: vc_templates/cms_blog_grid--layout6.php:165
+#: vc_templates/cms_blog_grid--layout7.php:165
+#: vc_templates/cms_blog_grid.php:173
+#: vc_templates/cms_portfolio_grid--layout4.php:181
+#: vc_templates/cms_portfolio_grid--layout6.php:183
+#: vc_templates/cms_portfolio_grid--layout7.php:174
+msgid "Load More"
+msgstr ""
+
+#: vc_templates/cms_blog_grid--layout3.php:170
+#: vc_templates/cms_blog_grid--layout5.php:158
+#: vc_templates/cms_career_grid--layout2.php:135
+#: vc_templates/cms_career_grid--layout3.php:139
+#: vc_templates/cms_career_grid--layout4.php:164
+#: vc_templates/cms_career_grid.php:139
+#: vc_templates/cms_service_grid--layout2.php:154
+#: vc_templates/cms_service_grid--layout3.php:157
+#: vc_templates/cms_service_grid--layout4.php:160
+#: vc_templates/cms_service_grid--layout5.php:204
+#: vc_templates/cms_service_grid--layout6.php:154
+#: vc_templates/cms_service_grid--layout7.php:187
+#: vc_templates/cms_service_grid--layout8.php:177
+#: vc_templates/cms_service_grid.php:172
+msgid "Load more"
+msgstr ""
+
+#: vc_templates/cms_blog_grid--layout4.php:178
+msgid "Load More Stories"
+msgstr ""
+
+#: vc_templates/cms_blog_tab.php:24
+msgid "Latest News"
+msgstr ""
+
+#: vc_templates/cms_blog_tab.php:29
+msgid "Most Popular"
+msgstr ""
+
+#: vc_templates/cms_call_to_action--layout2.php:46
+msgid "or Call Us Free"
+msgstr ""
+
+#: vc_templates/cms_career--layout2.php:70
+#: vc_templates/cms_career_grid--layout4.php:124
+msgid "Posted:"
+msgstr ""
+
+#: vc_templates/cms_career--layout2.php:76
+#: vc_templates/cms_career_grid--layout4.php:130
+msgid "Salary:"
+msgstr ""
+
+#: vc_templates/cms_career--layout2.php:79
+#: vc_templates/cms_career_grid--layout4.php:133
+msgid "Location:"
+msgstr ""
+
+#: vc_templates/cms_career--layout2.php:82
+#: vc_templates/cms_career_grid--layout4.php:136
+msgid "Contract:"
+msgstr ""
+
+#: vc_templates/cms_career--layout2.php:92
+#: vc_templates/cms_career_grid--layout4.php:146
+msgid "Share Vacancy:"
+msgstr ""
+
+#: vc_templates/cms_career--layout2.php:99
+#: vc_templates/cms_career_grid--layout4.php:153
+msgid "Apply for Job"
+msgstr ""
+
+#: vc_templates/cms_career_grid.php:124
+msgid "View Vacancy"
+msgstr ""
+
+#: vc_templates/cms_googlemap--layout2.php:135
+msgid "Email Us:"
+msgstr ""
+
+#: vc_templates/cms_googlemap--layout2.php:139
+msgid "Call Us:"
+msgstr ""
+
+#: vc_templates/cms_portfolio_carousel--layout2.php:66
+#: vc_templates/cms_portfolio_carousel--layout3.php:76
+#: vc_templates/cms_portfolio_carousel--layout4.php:58
+#: vc_templates/cms_portfolio_grid--layout2.php:153
+#: vc_templates/cms_portfolio_grid--layout3.php:188
+#: vc_templates/cms_portfolio_grid--layout4.php:164
+#: vc_templates/cms_portfolio_grid--layout5.php:167
+#: vc_templates/cms_portfolio_grid--layout6.php:164
+#: vc_templates/cms_portfolio_slider.php:103
+msgid "View Project"
+msgstr ""
+
+#: vc_templates/cms_portfolio_carousel.php:83
+#: vc_templates/cms_portfolio_grid.php:170
+msgid "Read Case Study"
+msgstr ""
+
+#: vc_templates/cms_portfolio_grid--layout2.php:170
+#: vc_templates/cms_portfolio_grid--layout3.php:206
+#: vc_templates/cms_portfolio_grid--layout5.php:184
+#: vc_templates/cms_portfolio_grid.php:188
+#: vc_templates/cms_service_grid--layout5.php:167
+#: vc_templates/cms_service_grid--layout5.php:191
+#: vc_templates/cms_team_grid--layout2.php:156
+#: vc_templates/cms_team_grid.php:149
+msgid "View More"
+msgstr ""
+
+#: vc_templates/cms_portfolio_grid--layout3.php:110
+msgid "Sort By"
+msgstr ""
+
+#: vc_templates/cms_portfolio_grid--layout3.php:111
+msgid "Ascending"
+msgstr ""
+
+#: vc_templates/cms_portfolio_grid--layout3.php:112
+msgid "Descending"
+msgstr ""
+
+#: vc_templates/cms_portfolio_tab.php:56
+msgid "View Case Study"
+msgstr ""
+
+#: vc_templates/cms_service_carousel.php:49
+#: vc_templates/cms_service_grid--layout3.php:145
+#: vc_templates/cms_service_grid.php:160
+msgid "View Service"
+msgstr ""
+
+#: vc_templates/cms_service_grid--layout2.php:143
+#: vc_templates/cms_service_grid--layout7.php:165
+#: vc_templates/cms_service_grid--layout8.php:164
+msgid "Learn More"
+msgstr ""
+
+#: vc_templates/cms_team_member--layout5.php:48
+msgid "Joined in"
+msgstr ""
+
+#: widgets/class.widget-extends.php:63
+msgid "Use Theme Style"
+msgstr ""
+
+#: widgets/class.widget-extends.php:71
+msgid "CSS Class"
+msgstr ""
+
+#: widgets/class.widget-extends.php:82
+msgid "Hide widget title"
+msgstr ""
+
+#: widgets/widget-getintouch.php:7
+msgid "CMS Get In Touch"
+msgstr ""
+
+#: widgets/widget-getintouch.php:8
+msgid "Get In Touch Widget"
+msgstr ""
+
+#: widgets/widget-getintouch.php:107
+msgid "Phone Text"
+msgstr ""
+
+#: widgets/widget-getintouch.php:110
+msgid "Mail Label"
+msgstr ""
+
+#: widgets/widget-getintouch.php:113
+msgid "Mail Text"
+msgstr ""
+
+#: widgets/widget-getintouch.php:116
+msgid "Address Label"
+msgstr ""
+
+#: widgets/widget-getintouch.php:119
+msgid "Address Text"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:15
+msgid "CMS Recent Posts"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:17
+msgid "Shows your most recent posts."
+msgstr ""
+
+#: widgets/widget-recent-posts.php:33 widgets/widget-recent-posts.php:38
+#: widgets/widget-recent-posts.php:236 widgets/widget-recent-posts.php:240
+msgid "Recent Posts"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:247 widgets/widget-social.php:190
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:251
+msgid "Post in"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:253
+msgid "Recent"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:254
+msgid "Featured"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:259
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:265
+msgid "Default"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:266
+msgid "Renovation"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:267
+msgid "Corporate"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:268
+msgid "Real Estate"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:269
+msgid "Construction Company"
+msgstr ""
+
+#: widgets/widget-social.php:7
+msgid "CMS Social"
+msgstr ""
+
+#: widgets/widget-social.php:8
+msgid "Social Widget"
+msgstr ""
+
+#: widgets/widget-social.php:71
+msgid "Facebook"
+msgstr ""
+
+#: widgets/widget-social.php:75
+msgid "Rss"
+msgstr ""
+
+#: widgets/widget-social.php:79
+msgid "YouTube"
+msgstr ""
+
+#: widgets/widget-social.php:87
+msgid "Google+"
+msgstr ""
+
+#: widgets/widget-social.php:91
+msgid "Skype"
+msgstr ""
+
+#: widgets/widget-social.php:95
+msgid "Dribbble"
+msgstr ""
+
+#: widgets/widget-social.php:99
+msgid "Flickr"
+msgstr ""
+
+#: widgets/widget-social.php:103
+msgid "Linkedin"
+msgstr ""
+
+#: widgets/widget-social.php:107
+msgid "Vimeo"
+msgstr ""
+
+#: widgets/widget-social.php:111
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/widget-social.php:115
+msgid "Bloglovin"
+msgstr ""
+
+#: widgets/widget-social.php:119
+msgid "Instagram"
+msgstr ""
+
+#: widgets/widget-social.php:193
+msgid "Link Facebook:"
+msgstr ""
+
+#: widgets/widget-social.php:196
+msgid "Link Rss:"
+msgstr ""
+
+#: widgets/widget-social.php:199
+msgid "Link Youtube:"
+msgstr ""
+
+#: widgets/widget-social.php:202
+msgid "Link Twitter:"
+msgstr ""
+
+#: widgets/widget-social.php:205
+msgid "Link Google:"
+msgstr ""
+
+#: widgets/widget-social.php:208
+msgid "Link Skype:"
+msgstr ""
+
+#: widgets/widget-social.php:211
+msgid "Link Dribbble:"
+msgstr ""
+
+#: widgets/widget-social.php:214
+msgid "Link Flickr:"
+msgstr ""
+
+#: widgets/widget-social.php:217
+msgid "Link Linkedin:"
+msgstr ""
+
+#: widgets/widget-social.php:220
+msgid "Link Vimeo:"
+msgstr ""
+
+#: widgets/widget-social.php:223
+msgid "Link Pinterest:"
+msgstr ""
+
+#: widgets/widget-social.php:226
+msgid "Link Bloglovin:"
+msgstr ""
+
+#: widgets/widget-social.php:229
+msgid "Link Instagram:"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:26
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/wc-function-hooks.php:78
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:85
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:90
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:148
+msgid "Product Features"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:190
+msgid "Delivery & Returns"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:213
+msgid "Sort by:"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:220
+#: woocommerce/wc-function-hooks.php:226
+msgid "Add to Cart"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:241
+msgid "Your Recently Viewed"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:258
+msgid "OFF"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:318
+msgid "RRP"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:321
+msgid "SAVE"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "k2_prefix"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.cmssuperheroes.com/themeforest/k2_prefix"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The 2018 theme for WordPress is a fully responsive theme that looks great "
+"on any device. Features include a front page template with its own "
+"widgets, an optional display font, styling for post formats on both index "
+"and single views, and an optional no-sidebar page template. Make it yours "
+"with a custom menu, header image, and background."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CMSSuperHeroes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/CMSSuperHeroes"
+msgstr ""

@@ -1,0 +1,196 @@
+// Add Font Face
+//--------------------------------------------------
+@font-face {
+    font-family: 'GT-Walsheim-Bold';
+    src: url('../fonts/main/gt-walsheim-bold-webfont.woff2') format('woff2'),
+         url('../fonts/main/gt-walsheim-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-Medium';
+    src: url('../fonts/main/gt-walsheim-medium-webfont.woff2') format('woff2'),
+         url('../fonts/main/gt-walsheim-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-Regular';
+    src: url('../fonts/main/gt-walsheim-regular-webfont.woff2') format('woff2'),
+         url('../fonts/main/gt-walsheim-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Nimbus-Sans-Bold';
+    src: url('../fonts/main/nimbus-sans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/main/nimbus-sans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Nimbus-Sans-Regular';
+    src: url('../fonts/main/nimbus-sans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/main/nimbus-sans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Maison-Neue-Mono';
+    src: url('../fonts/main/maisonneuemono-webfont.woff2') format('woff2'),
+         url('../fonts/main/maisonneuemono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison-Neue-Bold';
+    src: url('../fonts/main/maisonneuebold-webfont.woff2') format('woff2'),
+         url('../fonts/main/maisonneuebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sf-Ui-Text-Bold';
+    src: url('../fonts/main/sf-ui-text-bold-webfont.woff2') format('woff2'),
+         url('../fonts/main/sf-ui-text-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sf-Ui-Text-Medium';
+    src: url('../fonts/main/sf-ui-text-medium-webfont.woff2') format('woff2'),
+         url('../fonts/main/sf-ui-text-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Bold';
+    src: url('../fonts/main/proxima-nova-bold-webfont.woff2') format('woff2'),
+         url('../fonts/main/proxima-nova-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Semibold';
+    src: url('../fonts/main/proxima-nova-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/main/proxima-nova-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Semibold-Italic';
+    src: url('../fonts/main/proxima-nova-semibold-italic-webfont.woff2') format('woff2'),
+         url('../fonts/main/proxima-nova-semibold-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Regular';
+    src: url('../fonts/main/proxima-nova-regular-webfont.woff2') format('woff2'),
+         url('../fonts/main/proxima-nova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre-Regular';
+    src: url('../fonts/main/calibre-regular.woff2') format('woff2'),
+         url('../fonts/main/calibre-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre-Medium';
+    src: url('../fonts/main/calibre-medium.woff2') format('woff2'),
+         url('../fonts/main/calibre-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre-Semibold';
+    src: url('../fonts/main/calibre-semibold.woff2') format('woff2'),
+         url('../fonts/main/calibre-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Norwester';
+    src: url('../fonts/main/norwester-webfont.woff2') format('woff2'),
+         url('../fonts/main/norwester-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.ft-no {
+    font-family: 'Norwester' !important;
+}
+.ft-csb {
+    font-family: 'Calibre-Semibold' !important;
+    font-weight: normal !important;
+}
+.ft-csm {
+    font-family: 'Calibre-Medium' !important;
+    font-weight: normal !important;
+}
+.ft-ns-b {
+    font-family: 'Nimbus-Sans-Bold';
+}
+.ft-ns-r {
+    font-family: 'Nimbus-Sans-Regular';
+}
+.ft-pn-b {
+    font-family: 'Proxima-Nova-Bold';
+}
+.ft-pn-sb {
+    font-family: 'Proxima-Nova-Semibold';
+}
+.ft-pn-sbi {
+    font-family: 'Proxima-Nova-Semibold-Italic';
+}
+.ft-gtw-m {
+    font-family: 'GT-Walsheim-Medium' !important;
+}
+.ft-heading-m, h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: $heading_default_font_medium;
+}
+
+.ft-heading-b, .text-heading {
+    font-family: $heading_default_font_bold;
+}
+
+.ft-main-r, body {
+    font-family: $body_default_font;
+}
+
+.ft-sui-b {
+    font-family: 'Sf-Ui-Text-Bold';
+    font-weight: normal;
+}
+.ft-sui-m {
+    font-family: 'Sf-Ui-Text-Medium';
+    font-weight: normal;
+}
+
+.text-heading {
+    opacity: 1;
+}

@@ -1,0 +1,308 @@
+/*
+Theme Name: Abtheme
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+.site-header-social, 
+.cms-acm-review-list,
+.woocommerce-summary-wrap .woocommerce-product-gallery, 
+.woocommerce-summary-wrap .entry-summary, 
+.woocommerce-tabs #tab-reviews, 
+.single-hentry .entry-holder .entry-meta, 
+.entry-featured .owl-carousel {
+    direction: ltr;
+}
+.entry-summary form.cart {
+    direction: rtl;
+}
+.float-left {
+    float: right !important;
+}
+.float-right {
+    float: left !important;
+}
+.text-right {
+    text-align: left !important;
+}
+.text-left {
+    text-align: right !important;
+}
+#headroom .site-contact-top img {
+    margin-right: 0;
+    margin-left: 11px;
+}
+.social-icon a + a {
+    margin-right: 23px;
+    margin-left: 0;
+}
+.cms-social li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+.cms-social li i {
+    left: inherit;
+    right: 0;
+}
+.scroll-top {
+    right: inherit;
+    left: 10px;
+}
+.single-hentry .featured-active + .entry-date {
+    left: inherit;
+    right: 30px;
+}
+.woocommerce-summary-wrap .entry-summary,
+.single-product.woocommerce #content .related > h2,
+.woocommerce-tabs .tab-content-wrap,
+.single-hentry .entry-holder, .rtl-text-right,
+.single-product.woocommerce #content .woocommerce-summary-wrap .variations td.label,
+.single-product.woocommerce #content .woocommerce-summary-wrap form.variations_form .quantity .qty, 
+.single-product.woocommerce #content .woocommerce-summary-wrap form.cart .quantity .qty {
+    text-align: right;
+}
+/* Menu
+//-------------------------------------------------- */
+.primary-menu li {
+    text-align: right;
+}
+@media (min-width: 992px){
+    .primary-menu > li {
+        float: right;
+    }
+    .primary-menu .sub-menu {
+        right: 0;
+        left: auto;
+    }
+    .primary-menu .sub-menu .sub-menu {
+        left: auto;
+        right: 100%;
+    }
+    ul.back {
+        left: 100% !important;
+        right: auto !important;
+    }
+}
+
+/* Body
+//-------------------------------------------------- */
+.vc_col-lg-1, .vc_col-lg-10, .vc_col-lg-11, .vc_col-lg-12, .vc_col-lg-2, .vc_col-lg-3, .vc_col-lg-4, .vc_col-lg-5, .vc_col-lg-6, .vc_col-lg-7, .vc_col-lg-8, .vc_col-lg-9 {
+    float: right;
+}
+#secondary, 
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea, select {
+    text-align: right;
+}
+.acm-radio + .acm-radio {
+    margin-left: 0;
+    margin-right: 14px;
+}
+.vc_row > .wpb_column {
+    text-align: right;
+}
+.vc_row .col-offset-left > .vc_column-inner, .vc_row .col-offset-right > .vc_column-inner {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.vc_custom_heading {
+    text-align: right !important;
+}
+.cms-lists ul li {
+    padding-left: 0;
+    padding-right: 31px;
+}
+.cms-lists ul li i {
+    left: auto;
+    right: 0;
+}
+.cms-lists.style-round ul li {
+    padding-left: 0;
+    padding-right: 13px;
+}
+.cms-fancybox-default .cms-fancybox-icon {
+    left: auto;
+    right: 0;
+}
+.cms-fancybox-default .cms-fancybox-icon + .cms-fancybox-content {
+    padding-left: 0;
+    padding-right: 53px;
+    text-align: right;
+}
+.cms-findus-inner #acm-address-des {
+    margin-right: 11px;
+    margin-left: 11px;
+}
+.acm-post {
+    text-align: right;
+}
+.acm-book .acm-order span {
+    float: left;
+}
+.cms-fancybox-layout4 .cms-fancybox-icon {
+    left: auto;
+    right: 0;
+}
+.cms-fancybox-layout4 .cms-fancybox-icon + .cms-fancybox-content {
+    padding-left: 0;
+    padding-right: 48px;
+}
+.woo-menu-toggle {
+    left: 0;
+    right: auto;
+}
+.vc_tta-tabs-list {
+    text-align: right;
+}
+.woocommerce-top-search-cart .cms-select i {
+    right: auto;
+    left: 28px;
+}
+.woocommerce .woocommerce-meta-ordering label {
+    margin-right: 0px;
+    margin-left: 13px;
+}
+.cms-select i {
+    right: auto;
+    left: 14px;
+}
+#site-header-wrap.header-layout3 .topbar-menu li::after {
+    right: auto;
+    left: -1px;
+}
+.single-product.woocommerce #content .entry-summary .price {
+    padding-right: 0;
+    padding-left: 100px;
+}
+.single-product.woocommerce #content .entry-summary .price .price-save span.onsale {
+    right: auto;
+    left: 0px;
+}
+.single-product.woocommerce #content .entry-summary .star-rating {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.single-product.woocommerce #content .woocommerce-Tabs-panel .tab-product-feature-list .row div.col-xl-4 {
+    border-right: none;
+    border-left: 2px solid #efefef;
+}
+.single-product.woocommerce #content #reviews .commentlist .comment-text {
+    margin-left: 30px;
+    margin-right: 80px;
+}
+.woocommerce .star-rating {
+    float: right;
+}
+.single-product.woocommerce #content .woocommerce-summary-wrap form.variations_form .quantity, 
+.single-product.woocommerce #content .woocommerce-summary-wrap form.cart .quantity {
+    padding-left: 0px;
+    padding-right: 85px;
+}
+.single-product.woocommerce #content .woocommerce-summary-wrap .screen-reader-text {
+    right: 0px;
+    left: auto;
+}
+/* Footer
+//-------------------------------------------------- */
+.site-footer {
+    text-align: right;
+}
+.top-footer .widget_media_image {
+    float: right;
+}
+.top-footer::after {
+    right: auto;
+    left: 125px;
+}
+.bottom-footer .bottom-col1 {
+    text-align: right;
+}
+@media (max-width: 992px){
+    .bottom-footer .bottom-col1 {
+        text-align: left;
+    }
+}
+.acm-checkout-primary {
+    margin-right: 0;
+    margin-left: 40px;
+}
+.cms-box .cms-box-title {
+    text-align: right;
+}
+.acm-field label {
+    float: right;
+}
+.acm-checkout .acm-pm-method > div {
+    text-align: right;
+}
+.acm-field-radio {
+    padding-left: 0;
+    padding-right: 28px;
+}
+.acm-field-radio input, .acm-field-radio span {
+    left: auto;
+    right: 0;
+}
+.acm-checkout .acm-pm-method .acm-notice:before {
+    left: auto;
+    right: 15px;
+}
+.cms-box .cms-box-inner {
+    text-align: right;
+}
+.acm-checkout .acm-order-total {
+    text-align: right;
+}
+.acm-checkout .acm-order-total span {
+    float: left;
+}
+.post-type-archive-acm-post .cms-accomodation-item .cms-accomodation-holder {
+    padding: 24px 0px 24px 30px;
+    text-align: right;
+}
+.acm-wg-field .field-icon {
+    right: auto;
+    left: 15px;
+}
+.cms-acm-review .cms-acm-review-list .owl-nav {
+    right: auto;
+    left: 0;
+}
+.btn-group .btn + .btn {
+    margin-left: 0;
+    margin-right: 30px;
+}
+#site-header-wrap.header-layout1 .site-contact-top img {
+    margin-right: 0;
+    margin-left: 11px;
+}
+form .select2-container--default .select2-selection .select2-selection__clear {
+    left: 30px;
+    right: auto;
+}
+.select2-container--default .select2-results > .select2-results__options {
+    text-align: right;
+}
