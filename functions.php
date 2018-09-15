@@ -424,4 +424,4 @@ function k2_theme_frame_comment_field_to_bottom( $fields ) {
 add_filter( 'comment_form_fields', 'k2_theme_frame_comment_field_to_bottom' );
 
 /* Optimize Images */
-add_filter( 'jpeg_quality', create_function( '', 'return 60;' ) );
+//add_filter( 'jpeg_quality', create_function( '', 'return 60;' ) );
